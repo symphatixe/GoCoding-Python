@@ -1,5 +1,4 @@
 # Tip Calculator
-
 The purpose of this task is to create a tip calculator and print out how much each person should pay.
 
 ### Skills
