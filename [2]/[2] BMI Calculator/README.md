@@ -1,5 +1,4 @@
 # BMI Calculator
-
 The purpose of this task is to create a BMI calculator using your height and weight.
 
 ### Skills
