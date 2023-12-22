@@ -1,5 +1,4 @@
 # Odd & Even
-
 The purpose of this task is to create a small program that will check whether a number is odd or even.
 
 ### Skills
