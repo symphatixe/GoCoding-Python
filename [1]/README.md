@@ -1,5 +1,4 @@
 # Band Name Generator
-
 The purpose of this task is to take two user inputs and concatenate Strings and print them out.
 
 ### Skills:
