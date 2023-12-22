@@ -1,5 +1,4 @@
 # Pizza Order
-
 The purpose of this task is to use user inputs to create a pizza order and print out the bill.
 
 ### Skills
