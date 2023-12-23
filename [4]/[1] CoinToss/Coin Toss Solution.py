@@ -1,7 +1,7 @@
 import random
 
 print("Welcome to the coin toss simulator, enter toss and choose a value in your head. See if your prediction is right")
-choice = input("Heads or tails?")
+choice = input("Heads or tails? \n")
 
 toss = random.randint(0, 1)
 if (toss == 0):

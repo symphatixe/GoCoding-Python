@@ -1,8 +1,8 @@
 print("Welcome to the Tip Calculator")
 
-bill = float(input("What was the total of the bill? "))
-people = int(input("How many people are paying? "))
-tip = float(input("How much are you tipping? 10%, 15%, 20% ")) 
+bill = float(input("What was the total of the bill? \n"))
+people = int(input("How many people are paying? \n"))
+tip = float(input("How much are you tipping? 10%, 15%, 20% \n")) 
 tip_percent = (tip / 100) + 1
 
 pay = round((bill / people) * tip_percent, 2)

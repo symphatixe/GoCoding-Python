@@ -5,7 +5,7 @@ total = 0
 photo = False
 
 if (height >= 120):
-    print("You can ride the ArgoPrep Rollercoaster.\n")
+    print("You can ride the ArgoPrep Rollercoaster. \n")
     
     age = int(input("What is your age? \n"))
     
@@ -22,7 +22,7 @@ if (height >= 120):
         total += 12
         
         
-    photo = input("Would you like a photo? Please enter y or n ")
+    photo = input("Would you like a photo? Please enter y or n. \n")
     
     if (photo.lower() == "y"):
         print("You have added the photo package.")
