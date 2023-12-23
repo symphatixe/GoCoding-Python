@@ -4,3 +4,7 @@ The purpose of this task is to calculate the love score between two names based 
 ### Skills 
 - User user input and combine two names and make sure to lowercase both of them so that calculations are easier.
 - How to use methods to count how many times a letter occurs within a string.
+- Cast the two scores as strings to find the combination of them
+    - true = 1
+    - love = 1
+    - love score = 11, not 2.
