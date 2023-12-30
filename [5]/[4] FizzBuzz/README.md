@@ -7,3 +7,4 @@ The purpose of this task is to recreate the very simple and almost infamous Fizz
     - `Buzz` if divisible by 5
     - `FizzBuzz` if divisible by both 3 and 5
 - Use conditionals and nested conditionals to determine which choice is printed and check the divisibility.
+- Another difficulty meter, is to allow Python user input to determine a print statement based on the user input.
