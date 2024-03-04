@@ -3,5 +3,5 @@ The purpose of this task is to create an age calculator that will print out the 
 
 ### Skills
 - Understand how to cast a variable from a string into a int.
-- Create variables and do research for problems in terms of how the formula looks like etc.
+- Research problems to find relevant information if necessary, in this case the BMI formula.
 - Print out a formatted string.
