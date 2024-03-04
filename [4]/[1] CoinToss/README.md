@@ -3,5 +3,5 @@ The purpose of this task is to simulate a coin toss, using the random module to 
 
 ### Skills
 - Use Python user input to track the choice.
-- Use `.lower()` to make sure all input is tracked correctly even if the user uses capitals.
-- Print out corresponding statements for the outcomes and use fstrings.
+- Use `.lower()` to track user input.
+- Print out corresponding statements for the outcomes and use formatted strings.
