@@ -1,5 +1,5 @@
 # Band Name Generator
-The purpose of this task is to take two user inputs and concatenate Strings and print them out.
+The purpose of this task is to take two user inputs and concatenate strings and print them out.
 
 ### Skills:
 - Understand how to use Python user input.
