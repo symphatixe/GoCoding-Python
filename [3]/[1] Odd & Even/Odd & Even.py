@@ -1,5 +1,5 @@
-# 🚨 Don't change the code below 👇
+# Starter Code
 number = int(input("Which number do you want to check? \n"))
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+
+# Write your code below!

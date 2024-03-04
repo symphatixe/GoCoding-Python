@@ -1,11 +1,11 @@
-# 🚨 Don't change the code below 👇
+# Starter Code
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L \n")
 add_pepperoni = input("Do you want pepperoni? Y or N \n")
 extra_cheese = input("Do you want extra cheese? Y or N \n")
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+
+# Write your code below!
 total = 0
 
 # Calculate bill functions
@@ -32,7 +32,7 @@ def cheese_bill(response):
     if (response == "Y"):
         total += 1
 
-# End of code
+
 pizza_bill(size)
 pepperoni_bill(add_pepperoni)
 cheese_bill(extra_cheese)

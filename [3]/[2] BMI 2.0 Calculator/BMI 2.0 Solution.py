@@ -1,9 +1,9 @@
-# 🚨 Don't change the code below 👇
+# Starter Code
 height = float(input("enter your height in m: \n"))
 weight = float(input("enter your weight in kg: \n"))
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+
+#Write your code below!
 height_squared = height**2
 bmi = round(weight / height_squared)
 

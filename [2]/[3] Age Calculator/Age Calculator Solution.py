@@ -1,8 +1,8 @@
-# 🚨 Don't change the code below 👇
+# Starter Code
 age = input("What is your current age? \n")
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+
+# Write your code below!
 calculated_age = 90 - int(age)
 
 months = calculated_age * 12
