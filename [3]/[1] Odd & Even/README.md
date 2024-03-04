@@ -4,3 +4,4 @@ The purpose of this task is to create a small program that will check whether a 
 ### Skills
 - Understand how to use Python user input and check the value using if statements.
 - Use modulo division to understand how to use remainders.
+- Use `==` to indicate equality.
