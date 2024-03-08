@@ -7,7 +7,6 @@ photo = False
 
 
 # Write your code below!
-
 if (height >= 120):
     print("You can ride the ArgoPrep Rollercoaster. \n")
     
