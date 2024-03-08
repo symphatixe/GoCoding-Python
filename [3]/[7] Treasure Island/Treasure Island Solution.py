@@ -1,3 +1,4 @@
+# Starter Code
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -23,6 +24,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
+
+# Write your code below!
 choice1 = input("Pick a direction to go, left or right. \n")
 
 if (choice1.lower() == "left"):
