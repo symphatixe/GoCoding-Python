@@ -1,7 +1,11 @@
-print("Welcome to the number skipper")
+# Starter Code
+print("Welcome to the number skipper!")
 num = int(input("Pick a number to skip :)\n"))
 
-for number in range(0, 11):
+
+# Write your code below!
+
+for number in range(11):
     if (number == num):
         continue
     else:

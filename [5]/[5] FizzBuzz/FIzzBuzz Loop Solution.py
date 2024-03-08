@@ -1,6 +1,7 @@
 print("Welcome to the FizzBuzz looper!")
 
-for number in range(1, 101):
+
+for number in range(101):
     if (number % 3 == 0):
         if (number % 5 == 0):
             print("FizzBuzz")
