@@ -6,7 +6,6 @@ list2 = []
 
 
 # Write your code below!
-
 for num in range(35):
     number = random.randint(-20, 20)
     if (number >= 0):

@@ -5,7 +5,6 @@ num2 = int(input("How many numbers do you want inside the second list?\n"))
 
 
 # Write your code below!
-
 list1 = []
 list2 = []
 

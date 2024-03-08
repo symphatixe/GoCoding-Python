@@ -3,7 +3,6 @@ scores = [50, 40, 60, 10, 70, 50, 50]
 
 
 # Write your code below!
-
 print("Original Scores: " + str(scores))
 for num in range(len(scores)):
    scores[num] += 30

@@ -1,5 +1,5 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster.\n")
+print("Welcome to the ArgoPrep Rollercoaster. \n")
 
 height = int(input("What is your height? "))
 total = 0
@@ -13,15 +13,15 @@ if (height >= 120):
     age = int(input("What is your age? \n"))
     
     if age < 12:
-        print("Child tickets are $5. Ticket amount added to bill.\n")
+        print("Child tickets are $5. Ticket amount added to bill. \n")
         total += 5
         
     elif age <= 18:
-        print("Youth tickets are $7. Ticket amount added to bill.\n")
+        print("Youth tickets are $7. Ticket amount added to bill. \n")
         total += 7
         
     else:
-        print("Adult tickets are $12. Ticket amount added to bill.\n")
+        print("Adult tickets are $12. Ticket amount added to bill. \n")
         total += 12
         
         

@@ -1,3 +1,6 @@
+# Starter Code
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -25,4 +28,5 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
+
+#Write your code below!

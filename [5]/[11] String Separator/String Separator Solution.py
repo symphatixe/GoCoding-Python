@@ -4,7 +4,6 @@ list = []
 
 
 # Write your code below!
-
 for num in range(len(entry)):
     list.append(entry[num])
     

@@ -1,5 +1,5 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster.\n")
+print("Welcome to the ArgoPrep Rollercoaster. \n")
 
 height = int(input("What is your height? "))
 total = 0

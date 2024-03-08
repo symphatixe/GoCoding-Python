@@ -4,7 +4,6 @@ num = int(input("Enter a number\n"))
 
 
 # Write your code below!
-
 if (num % 3 == 0):
     if (num % 5 == 0):
         print(str(num) + " entered, it is FizzBuzz!")
