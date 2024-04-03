@@ -8,4 +8,4 @@ for num in range(len(entry)):
     list.append(entry[num])
     
 print("User Input: " + entry)
-print("Separated List: " + str(list))
+print(f"Separated List: {list}")

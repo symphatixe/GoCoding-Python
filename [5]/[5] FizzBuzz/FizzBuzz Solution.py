@@ -6,12 +6,12 @@ num = int(input("Enter a number\n"))
 # Write your code below!
 if (num % 3 == 0):
     if (num % 5 == 0):
-        print(str(num) + " entered, it is FizzBuzz!")
+        print(f"{num} entered, it is FizzBuzz!")
     else:
-        print(str(num) + " entered, it is Fizz!")
+        print(f"{num} entered, it is Fizz!")
         
 elif (num % 5 == 0):
-    print(str(num) + " entered, it is Buzz!")
+    print(f"{num} entered, it is Buzz!")
     
 else:
-    print(str(num) + " entered, neither category!")
+    print(f"{num} entered, neither category!")

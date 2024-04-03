@@ -12,6 +12,6 @@ for _ in range(num):
     
 print(list)
 list.pop()
-print(str(list) + " after removing the last element")
+print(f"{list} after removing the last element")
 print(list.pop(0))
-print(str(list) + " after removing the first element")
+print(f"{list} after removing the first element")

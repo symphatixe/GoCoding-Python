@@ -24,11 +24,10 @@ love_count += combined_name.count("e")
 true = str(true_count)
 love = str(love_count)
 total = true + love
-int_total = int(total)
 
-if (int_total < 10 and int_total > 90):
-    print("Your love score is " + str(int_total) + " and you go together like coke and mentos.")
-elif (int_total >= 40 and int_total <= 50):
-    print("Your score is " + str(int_total) + " you are alright together.")
+if (total < 10 and total > 90):
+    print(f"Your love score is {total} and you go together like coke and mentos.")
+elif (total >= 40 and total <= 50):
+    print(f"Your score is {total} you are alright together.")
 else:
-    print("Your score is " + str(int_total) + ".")
+    print(f"Your score is {total}.")

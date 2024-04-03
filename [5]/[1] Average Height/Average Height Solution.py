@@ -11,4 +11,4 @@ for h in student_heights:
     total += h
     count += 1
 
-print(round(total / count, 2))
+print(f"The average is {round(total / count, 2)}")
