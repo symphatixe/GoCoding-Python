@@ -3,7 +3,7 @@ print("Welcome to the ArgoPrep Rollercoaster. \n")
 
 height = int(input("What is your height? "))
 total = 0
-
+photoChoice = False
 
 # Write your code below!
 if (height >= 120):
@@ -28,6 +28,7 @@ if (height >= 120):
     
     if (photo.lower() == "y"):
         print("You have added the photo package.")
+        photoChoice = True
         total += 3
         
     elif (photo.lower() == "n"):
