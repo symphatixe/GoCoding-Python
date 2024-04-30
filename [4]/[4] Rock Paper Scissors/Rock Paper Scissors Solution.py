@@ -45,7 +45,7 @@ else:
     computerChoice = scissors
     
 if (user == 1):
-    user = rock
+    userChoice = rock
 elif (user == 2): 
     userChoice = paper
 else:
