@@ -1,18 +1,23 @@
 import random
 
-print("Welcome to the hangman game")
+print("Welcome to Hangman")
 
 word_list = ['baboon', 'books', 'bucket', 'coming', 'camel', 'sunshine']
 choice = random.choice(word_list).lower()
 
-blanks: 
+print(choice)
 
-guess = input("Guess a letter")
-
+display = []
 for letter in choice:
+    display += "_"
+print(display)
+
+guess = input("Guess a letter\n")
+
+for position in range(len(choice)):
+    letter = choice[position]
     if (letter == guess):
-        print("Correct!")
-    else:
-        print("Incorrect")
+        display[position] = guess
         
+print(display)
         
