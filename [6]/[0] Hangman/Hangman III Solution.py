@@ -96,14 +96,14 @@ while not game_end:
           
           
   print(stages[lives - 1])
-  
-  
+
+
   if guess not in choice:
       lives -= 1
       if lives == 0:
           game_end = True
           print(f"You have lost, the word was {choice}")
-  
+
   if ("_") not in display:
       game_end = True
       print(f"{' '.join(display)}")

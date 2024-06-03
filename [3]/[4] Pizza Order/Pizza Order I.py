@@ -6,14 +6,19 @@ extra_cheese = input("Do you want extra cheese? Y or N \n")
 
 
 # Write your code below!
+# small is 15, medium is 20, large is 25
+# pepperoni is 2 for small, 3 for medium and large
+# cheese is 1 for all sizes
+
+
 total = 0
 
 # Calculate bill functions
-if (size == "S"):
+if (size.lower() == "s"):
     total += 15
-elif (size == "M"):
+elif (size.lower() == "m"):
     total += 20
-elif (size == "L"):
+elif (size.lower() == "l"):
     total += 25
 
 if (add_pepperoni == "Y" and size == "S"):

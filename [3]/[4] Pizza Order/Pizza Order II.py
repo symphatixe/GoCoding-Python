@@ -6,6 +6,11 @@ extra_cheese = input("Do you want extra cheese? Y or N \n")
 
 
 # Write your code below!
+# small is 15, medium is 20, large is 25
+# pepperoni is 2 for small, 3 for medium and large
+# cheese is 1 for all sizes
+
+
 total = 0
 
 # Calculate bill functions
