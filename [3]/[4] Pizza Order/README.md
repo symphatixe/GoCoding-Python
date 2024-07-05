@@ -3,4 +3,9 @@ The purpose of this task is to use user input to create a pizza order and print 
 
 ### Skills
 - Understand the implementation of user input within a program and updating a global variable.
-- There are 4 different solutions, all with various levels of difficulty and ways to use the inputs along with implementation of functions.
+- There are 2 solutions that cover different aspects of programming such as:
+  - using multiple conditionals and printing by interweaving input() in between print() statements
+  - using a global counter variable to calculate the total
+  - use exit() to make sure the user enters the correct data
+  - encapsulating conditionals efficiently
+  - setting lower() globally on variables to avoid repeating code
