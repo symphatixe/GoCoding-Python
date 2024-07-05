@@ -7,11 +7,14 @@ leap1 = year % 4 == 0
 leap2 = year % 100 == 0
 leap3 = year % 400 == 0
 
-if not leap1:
-    print("Not leap year.")
-elif leap1 and not leap2:
-    print("Leap year.")
-elif leap1 and not leap2 and not leap3:
-    print("Not leap year.")
+if (not leap1):
+    print(f"{year} is not leap year.")
+elif (leap1 and not leap2):
+    print(f"{year} is a leap year.")
+elif (leap1 and not leap2 and not leap3):
+    print(f"{year} is not a leap year.")
+elif (leap1 and not leap2 and leap3):
+    print(f"{year} is a leap year.")
 else:
-    print("Leap year.")
+    print("Not an applicable input.")
+    exit()
