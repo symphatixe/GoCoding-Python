@@ -1,33 +1,19 @@
 # Starter Code
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L \n")
-add_pepperoni = input("Do you want pepperoni? Y or N \n")
-extra_cheese = input("Do you want extra cheese? Y or N \n")
 
 
 # Write your code below!
-# small is 15, medium is 20, large is 25
-# pepperoni is 2 for small, 3 for medium and large
-# cheese is 1 for all sizes
+# small is $15, medium is $20, large is $25
+# pepperoni is $2 for small, $3 for medium and large
+# cheese is $1 for all sizes
+# input() must be placed in between the print() statements to print them out during execution, instead of at the end
 
-
-total = 0
-
-# Calculate bill functions
-if (size.lower() == "s"):
-    total += 15
-elif (size.lower() == "m"):
-    total += 20
-elif (size.lower() == "l"):
-    total += 25
-
-if (add_pepperoni == "Y" and size == "S"):
-    total += 2
-elif (add_pepperoni == "Y" and (size == "M" or size == "L")):
-    total += 3
-
-if (extra_cheese == "Y"):
-    total += 1
-
-
-print(f"Your final bill is: ${total}.")
+#TODO Create a variable that stores the total
+#TODO Create a set of conditionals to check the size and add it according to the comments, and print out text
+#TODO Create an input field for pepperoni
+#TODO Create a set of conditionals to check whether the pepperoni is added, add it according to the comments, and print out text (using and & or)
+#TODO Create an input field for extra cheese
+#TODO Create a condition to check whether the cheese is correctly added, adding it according to the comments and print out the text
+#TODO Create else for pepperoni and cheese conditionals to inform the user that they chose to not add extra cheese or pepperoni
+#TODO Print the total using an f-string
