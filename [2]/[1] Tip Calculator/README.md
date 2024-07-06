@@ -5,4 +5,4 @@ The purpose of this task is to create a tip calculator and print out how much ea
 - Understand how to cast a variable from a string into a float.
 - Use PEMDAS and math operators.
 - Use the `round()` function to round the value.
-- Learn how to use and print a formatted string, more commonly known as a f-string.
+- Learn how to use and print a `formatted string`, more commonly known as a `f-string`.
