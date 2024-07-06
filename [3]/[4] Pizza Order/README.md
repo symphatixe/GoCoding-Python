@@ -9,4 +9,4 @@ The purpose of this task is to use user input to create a pizza order and print 
   - use `exit()` to make sure the user enters the correct data
   - encapsulating conditionals efficiently
   - setting `lower()` globally on variables to avoid repeating code
-  - printing out the total using a f-string
+  - printing out the total using a `f-string`
