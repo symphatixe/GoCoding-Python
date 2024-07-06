@@ -12,7 +12,6 @@ average = round(float(total) / 8, 2)
 print(f"Current Average: {average}\n\n")
 
 
-
 """
 You took a test and got another 100 on it, 2nd test grade got dropped, last grade did not count since it was a practice exam, insert a new 3rd test grade
 (demonstrate the difference between remove and pop)
