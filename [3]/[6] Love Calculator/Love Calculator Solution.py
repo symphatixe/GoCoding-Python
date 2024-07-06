@@ -23,9 +23,9 @@ love_count += combined_name.count("e")
 
 true = str(true_count)
 love = str(love_count)
-total = true + love
+total = int(true + love)
 
-if (total < 10 and total > 90):
+if (total < 10 or total > 90):
     print(f"Your love score is {total} and you go together like coke and mentos.")
 elif (total >= 40 and total <= 50):
     print(f"Your score is {total} you are alright together.")

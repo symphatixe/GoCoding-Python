@@ -27,14 +27,14 @@ if (height >= 120):
         print("Not an applicable input")
         exit()
         
-    photo = input("Would you like a photo? Please enter y or n. \n")
+    photo = input("Would you like a photo? Please enter y or n. \n").lower()
     
-    if (photo.lower() == "y"):
+    if (photo == "y"):
         print(f"You have added the photo package. Total is now {total}")
         photoChoice = True
         total += 3
         
-    elif (photo.lower() == "n"):
+    elif (photo == "n"):
         print(f"Photo package not chosen. Total is still {total}")
         
     else:
