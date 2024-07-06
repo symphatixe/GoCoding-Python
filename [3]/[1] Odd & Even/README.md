@@ -1,5 +1,5 @@
 # Odd & Even
-The purpose of this task is to create a small program that will check whether a number is odd or even.
+The purpose of this task is to create a program that will check whether a number is odd or even.
 
 ### Skills
 - Understand how to check user input within if statements.
