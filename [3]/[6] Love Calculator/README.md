@@ -1,5 +1,5 @@
 # Love Calculator
-The purpose of this task is to calculate the love score between two names based on an arbitrary scale of counting how many times each letter from "true love" appears within the two names. Scores greater than 90 or less than 10 are good scores, scores between 40 and 50 are okay, and other scores aren't good at all.
+The purpose of this task is to calculate the love score between two names based on an arbitrary scale of counting how many times each letter from "true love" appears within the two names. Scores greater than 90 or less than 10 are good scores, scores between 40 and 50 are okay, and all other scores aren't good at all.
 
 ### Skills 
 - User user input to combine both names and use `lower()` to simplify calculations.
