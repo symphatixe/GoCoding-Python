@@ -16,6 +16,3 @@ TODO Use conditionals to print out the corresponding text with an f-string based
 """
 height_squared = height**2
 bmi = weight // height_squared
-
-if bmi < 18.5:
-    print(f"Your BMI is {bmi}, you are underweight")
