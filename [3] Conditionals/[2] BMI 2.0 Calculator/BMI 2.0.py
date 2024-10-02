@@ -14,5 +14,3 @@ TODO Use conditionals to print out the corresponding text with an f-string based
     - obese for bmi less than 35
     - everything else is clinically obese    
 """
-height_squared = height**2
-bmi = weight // height_squared
