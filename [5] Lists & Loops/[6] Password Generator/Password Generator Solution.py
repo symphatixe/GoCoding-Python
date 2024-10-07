@@ -5,7 +5,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 print("Welcome to the PyPassword Generator!")
-nr_letters= int(input("How many letters would you like in your password?\n")) 
+nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input("How many symbols would you like?\n"))
 nr_numbers = int(input("How many numbers would you like?\n"))
 
@@ -15,7 +15,7 @@ password = ""
 
 # Write your code below!
 
-#Easy Level - Order not randomised:
+#Easy Level - Order not randomized:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 if (difficulty.lower() == "easy"):
     for _ in range(nr_letters):
@@ -27,15 +27,15 @@ if (difficulty.lower() == "easy"):
     for _ in range(nr_numbers):
         choice = random.choice(numbers)
         password += choice
-    
+
     print("Easy password: " + password)
 
 
-#Hard Level - Order of characters randomised:
+#Hard Level - Order of characters randomized:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 elif (difficulty.lower() == "hard"):
     characters = []
-    
+
     for _ in range(nr_letters):
         choice = random.choice(letters)
         characters += choice
@@ -45,11 +45,11 @@ elif (difficulty.lower() == "hard"):
     for _ in range(nr_numbers):
         choice = random.choice(numbers)
         characters += choice
-        
+
     random.shuffle(characters)
     for char in characters:
         password += char
-    
+
     print("Hard password: " + password)
 
 else:

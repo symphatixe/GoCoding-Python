@@ -8,7 +8,6 @@ size = input("What size pizza do you want? S, M, or L \n").lower()
 # pepperoni is $2 for small, $3 for medium and large
 # cheese is $1 for all sizes
 
-
 total = 0
 
 
@@ -17,14 +16,14 @@ if (size == "s"):
     print(f"You have ordered a small pizza. Your total now is ${total} \n")
 elif (size == "m"):
     total += 20
-    print(f"You have ordered a medium pizza. Your total now is ${total} \n")    
+    print(f"You have ordered a medium pizza. Your total now is ${total} \n")
 elif (size == "l"):
     total += 25
-    print(f"You have ordered a large pizza. Your total now is ${total} \n")    
+    print(f"You have ordered a large pizza. Your total now is ${total} \n")
 else:
     print("No applicable size selected.")
     exit()
-    
+
 
 add_pepperoni = input("Do you want pepperoni? Y or N \n").lower()
 
@@ -46,7 +45,7 @@ extra_cheese = input("\nDo you want extra cheese? Y or N \n").lower()
 
 if (extra_cheese == "y"):
     total += 1
-    print(f"You ordered extra chees for your pizza. Your total now is ${total} \n")
+    print(f"You ordered extra cheese for your pizza. Your total now is ${total} \n")
 elif (extra_cheese == "n"):
     print(f"You have chosen to not add pepperoni. Your total is still {total}")
 else:

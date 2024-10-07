@@ -24,7 +24,7 @@ for letter in choice:
 
 
 while not game_end:
-  
+
     print(f"The word to guess is {' '.join(display)}\n")
     guess = input("Guess a letter\n")
 
@@ -35,7 +35,7 @@ while not game_end:
         letter = choice[position]
         if (letter == guess):
             display[position] = guess
-            
+
 
     print(hangman_art.stages[lives - 1])
     #   print(stages[lives - 1])
@@ -43,7 +43,7 @@ while not game_end:
 
     if guess not in choice:
         print(f"You have guessed {guess}, that is not correct.")
-            
+
         lives -= 1
         if lives == 0:
             game_end = True

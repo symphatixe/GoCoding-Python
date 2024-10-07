@@ -12,5 +12,5 @@ TODO Use conditionals to print out the corresponding text with an f-string based
     - normal weight for bmi less than 25
     - slightly overweight for bmi less than 30
     - obese for bmi less than 35
-    - everything else is clinically obese    
+    - everything else is clinically obese
 """

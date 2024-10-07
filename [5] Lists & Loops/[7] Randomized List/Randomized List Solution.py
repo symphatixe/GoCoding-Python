@@ -9,7 +9,7 @@ list = []
 
 for _ in range(num):
     list.append(random.randint(0, 9))
-    
+
 print(list)
 list.pop()
 print(f"{list} after removing the last element")

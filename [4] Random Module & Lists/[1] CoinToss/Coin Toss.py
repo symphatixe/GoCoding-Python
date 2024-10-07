@@ -11,4 +11,4 @@ choice = input("Heads or tails? \n").lower()
 # of the toss instead of a number
 #TODO Create a conditional to change the variable that changes the toss string based on the coin toss
 #TODO Create a set of conditionals to check for winning conditions
-#TODO The else conditonal must print out the user's choice and the computer's choice
+#TODO The else conditional must print out the user's choice and the computer's choice

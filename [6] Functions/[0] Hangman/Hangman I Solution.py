@@ -15,5 +15,3 @@ for letter in choice:
         print("Correct!")
     else:
         print("Incorrect")
-        
-        

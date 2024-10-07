@@ -9,7 +9,7 @@ choice = input("Heads or tails? \n").lower()
 if (choice != "heads" and choice != "tails"):
     print("Not an applicable input.")
     exit()
-    
+
 
 toss = random.randint(0, 1)
 tossChoice = ""
@@ -17,7 +17,7 @@ if (toss == 0):
     tossChoice = str("tails")
 else:
     tossChoice = str("heads")
-    
+
 
 if (toss == 0 and choice == "tails"):
     print("You chose tails, congratulations!")

@@ -21,5 +21,5 @@ for position in range(len(choice)):
     letter = choice[position]
     if (letter == guess):
         display[position] = guess
-        
+
 print(display)

@@ -20,25 +20,25 @@ for letter in choice:
 
 
 while not game_end:
-  
+
     print(f"The word to guess is {' '.join(display)}\n")
     guess = input("Guess a letter\n")
-    
-    # TODO: add a conditional to check for the guess already exising inside the word
+
+    # TODO: add a conditional to check for the guess already existing inside the word
 
     for position in range(len(choice)):
         letter = choice[position]
         if (letter == guess):
             display[position] = guess
-            
-            
+
+
     # TODO: import the stages from the hangman_art file, there are two versions using import and the from
     print(stages[lives - 1])
 
 
     if guess not in choice:
         # TODO: inform the user that they have entered the wrong letter using a condition
-        
+
         lives -= 1
         if lives == 0:
             game_end = True

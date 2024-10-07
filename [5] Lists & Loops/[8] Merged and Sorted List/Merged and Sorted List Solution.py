@@ -10,10 +10,10 @@ list2 = []
 
 for _ in range(num1):
     list1.append(random.randint(0, 9))
-    
+
 for _ in range(num2):
     list2.append(random.randint(0, 9))
-    
+
 print(f"List 1: {list1}")
 print(f"List 2: {list2}")
 

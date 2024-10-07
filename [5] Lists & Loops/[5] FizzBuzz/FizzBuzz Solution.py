@@ -9,9 +9,9 @@ if (num % 3 == 0):
         print(f"{num} entered, it is FizzBuzz!")
     else:
         print(f"{num} entered, it is Fizz!")
-        
+
 elif (num % 5 == 0):
     print(f"{num} entered, it is Buzz!")
-    
+
 else:
     print(f"{num} entered, neither category!")

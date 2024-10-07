@@ -1,10 +1,10 @@
 # Starter Code
 print("Welcome to the Love Calculator")
-name1 = input("What is your name? \n") 
+name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
 
-# Write your code below!  
+# Write your code below!
 
 #TODO Combine the names together to simplify the counting of letters
 #TODO Create two variables: count for true and count for love
