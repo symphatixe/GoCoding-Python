@@ -6,7 +6,7 @@ size = input("What size pizza do you want? S, M, or L \n")
 # Write your code below!
 # small is $15, medium is $20, large is $25
 # pepperoni is $2 for small, $3 for medium and large
-# cheese is $1 for all sizes
+# extra cheese is $1 for all sizes
 
 
 total = 0
