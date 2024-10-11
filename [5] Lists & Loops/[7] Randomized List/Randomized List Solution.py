@@ -4,7 +4,6 @@ num = int(input("How many numbers do you want inside the list?\n"))
 
 
 # Write your code below!
-# Insertion at position to be covered
 list = []
 
 for _ in range(num):
