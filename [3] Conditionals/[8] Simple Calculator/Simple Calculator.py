@@ -10,3 +10,8 @@ operation = input("Choose from the menu options below:\n" +
                   "4. Division")
 
 # Write your code below
+
+#TODO Create a match case based off the operation variable to determine what operation the user wants
+#TODO Inside the cases create the arithmetic operation and print it using an f-string
+#TODO Inside the case for division check for division by 0
+#TODO Lastly add a case for handling invalid choices that are not 1 - 4
