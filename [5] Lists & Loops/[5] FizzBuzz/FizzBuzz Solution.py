@@ -4,14 +4,12 @@ num = int(input("Enter a number\n"))
 
 
 # Write your code below!
-if (num % 3 == 0):
-    if (num % 5 == 0):
+match num:
+    case _ if num % 3 == 0 and num % 5 == 0:
         print(f"{num} entered, it is FizzBuzz!")
-    else:
+    case _ if num % 3 == 0:
         print(f"{num} entered, it is Fizz!")
-
-elif (num % 5 == 0):
-    print(f"{num} entered, it is Buzz!")
-
-else:
-    print(f"{num} entered, neither category!")
+    case _ if num % 5 == 0:
+        print(f"{num} entered, it is Buzz!")
+    case _:
+        print(f"{num} is not applicable to this program :)")

@@ -6,7 +6,6 @@ num = int(input("Pick a number to skip :)\n"))
 # Write your code below!
 
 for number in range(11):
-    if (number == num):
+    if number == num:
         continue
-    else:
-        print(number)
+    print(number)

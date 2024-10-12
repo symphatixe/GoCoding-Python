@@ -36,3 +36,4 @@ scissors = '''
 # Use match case for this
 #TODO Create a match case conditional for the outcomes of the choices, include complex ternary operators for printing different text
 # based on the choices
+#TODO Inside the cases for the match use guard conditions to specify what input is going to be printed out and use wildcards
