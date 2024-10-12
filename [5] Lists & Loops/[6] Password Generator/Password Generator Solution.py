@@ -19,14 +19,11 @@ password = ""
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 if (difficulty.lower() == "easy"):
     for _ in range(nr_letters):
-        choice = random.choice(letters)
-        password += choice
+        password.append(random.choice(letters))
     for _ in range(nr_symbols):
-        choice = random.choice(symbols)
-        password += choice
+        password.append(random.choice(symbols))
     for _ in range(nr_numbers):
-        choice = random.choice(numbers)
-        password += choice
+        password.append(random.choice(numbers))
 
     print("Easy password: " + password)
 
@@ -37,14 +34,11 @@ elif (difficulty.lower() == "hard"):
     characters = []
 
     for _ in range(nr_letters):
-        choice = random.choice(letters)
-        characters += choice
+        characters.append(random.choice(letters))
     for _ in range(nr_symbols):
-        choice = random.choice(symbols)
-        characters += choice
+        characters.append(random.choice(symbols))
     for _ in range(nr_numbers):
-        choice = random.choice(numbers)
-        characters += choice
+        characters.append(random.choice(numbers))
 
     random.shuffle(characters)
     for char in characters:
