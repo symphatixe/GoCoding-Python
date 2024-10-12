@@ -36,50 +36,52 @@ user = int(input("Hello, welcome to rock, paper, scissors, the classic game. Pic
 computerChoice = ""
 userChoice = ""
 
+match computer:
+    case 1:
+        computerChoice = rock
+    case 2:
+        computerChoice = paper
+    case 3:
+        computerChoice = scissors
 
-if (computer == 1):
-    computerChoice = rock
-elif (computer == 2):
-    computerChoice = paper
-else:
-    computerChoice = scissors
+match user:
+    case 1:
+        userChoice = rock
+    case 2:
+        userChoice = paper
+    case 3:
+        userChoice = scissors
 
-if (user == 1):
-    userChoice = rock
-elif (user == 2):
-    userChoice = paper
-else:
-    userChoice = scissors
 
+"""
+alternate solution if needed, can wait until lists to discuss
+
+if user not in [1, 2, 3]:
+    print("Invalid input, try again.")
+    exit()
+"""
 
 if (user != 1 and user != 2 and user != 3):
     print("Invalid input, try again.")
     exit()
 
 else:
-    if (user == computer):
-        print(userChoice + "\n" + computerChoice)
-        print("You have tied the computer, good job!")
-    elif(user == 1):
-        if (computer == 2):
+    match(user, computer):
+        case(user,computer) if user == computer:
             print(userChoice + "\n" + computerChoice)
-            print("You chose rock, the computer chose paper. You have failed.")
-        else:
+            print("You have tied the computer, good job!")
+        case(1, _):
             print(userChoice + "\n" + computerChoice)
-            print("You chose rock, the computer chose scissors. Congratulations on squashing the computer!")
-
-    elif(user == 2):
-        if (computer == 1):
+            print("You chose rock, the computer chose paper. You have failed."
+                if computer == 2
+                else "You chose rock, the computer chose scissors. Congratulations on squashing the computer!")
+        case(2, _):
             print(userChoice + "\n" + computerChoice)
-            print("You chose paper, the computer chose rock. Congratulations on covering the computer!")
-        else:
+            print("You chose paper, the computer chose scissors. You have failed."
+                if computer == 1
+                else "You chose paper, the computer chose rock. Congratulations on covering the computer!")
+        case(3, _):
             print(userChoice + "\n" + computerChoice)
-            print("You chose paper, the computer chose scissors. You have failed.")
-
-    else:
-        if (computer == 1):
-            print(userChoice + "\n" + computerChoice)
-            print("You chose scissors, the computer chose rock. You have failed.")
-        else:
-            print(userChoice + "\n" + computerChoice)
-            print("You chose scissors, the computer chose paper. Congratulations on cutting up the computer!")
+            print("You chose scissors, the computer chose rock. You have failed."
+                if computer == 1
+                else "You chose scissors, the computer chose paper. Congratulations on cutting up the computer!")

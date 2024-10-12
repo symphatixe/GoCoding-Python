@@ -12,16 +12,13 @@ if (choice != "heads" and choice != "tails"):
 
 
 toss = random.randint(0, 1)
-tossChoice = ""
-if (toss == 0):
-    tossChoice = str("tails")
-else:
-    tossChoice = str("heads")
+tossChoice = "tails" if toss == 0 else "heads"
 
 
-if (toss == 0 and choice == "tails"):
-    print("You chose tails, congratulations!")
-elif (toss == 1 and choice == "heads"):
-    print("You chose heads, congratulations!")
-else:
-    print(f"Your prediction was not correct, try again. You picked {choice} and the coin was {tossChoice}.")
+match (toss, choice):
+    case (0, "tails"):
+        print("You chose tails, congratulations!")
+    case (1, "heads"):
+        print("You chose heads, congratulations!")
+    case _:
+        print(f"Your prediction was not correct, try again. You picked {choice} and the coin was {tossChoice}.")
