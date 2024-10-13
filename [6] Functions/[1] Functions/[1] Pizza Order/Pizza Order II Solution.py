@@ -1,14 +1,14 @@
 # Starter Code
 print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L \n")
-add_pepperoni = input("Do you want pepperoni? Y or N \n")
-extra_cheese = input("Do you want extra cheese? Y or N \n")
+size = input("What size pizza do you want? S, M, or L \n").lower()
+add_pepperoni = input("Do you want pepperoni? Y or N \n").lower()
+extra_cheese = input("Do you want extra cheese? Y or N \n").lower()
 
 
 # Write your code below!
 # small is 15, medium is 20, large is 25
 # pepperoni is 2 for small, 3 for medium and large
-# cheese is 1 for all sizes
+# extra cheese is 1 for all sizes
 
 
 total = 0
@@ -16,27 +16,37 @@ total = 0
 # Calculate bill functions
 def size_bill(response):
     global total
-    if (response == "S"):
-        total += 15
-    elif (response == "M"):
-        total += 20
-    elif (response == "L"):
-        total += 25
+
+    match response:
+        case "s":
+            total += 15
+        case "m":
+            total += 20
+        case "l":
+            total += 25
+        case _:
+            print("Invalid input, no size like that exists")
+            exit()
 
 def pepperoni_bill(response):
     global total
-    if response == "Y":
-        if (size == "S"):
-            total += 2
 
-        else:
-            total += 3
+    match response:
+        case "y":
+            total += 2 if size == "s" else 3
+        case _:
+            print("What did you enter besides yes or no?")
+            exit()
 
 def cheese_bill(response):
     global total
-    if (response == "Y"):
-        total += 1
 
+    match response:
+        case "y":
+            total += 1
+        case _:
+            print("What did you enter besides yes or no?")
+            exit()
 
 size_bill(size)
 pepperoni_bill(add_pepperoni)

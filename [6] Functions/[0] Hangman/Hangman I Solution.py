@@ -11,7 +11,6 @@ choice = random.choice(word_list).lower()
 guess = input("Guess a letter!\n")
 
 for letter in choice:
-    if (letter == guess):
-        print("Correct!")
-    else:
-        print("Incorrect")
+    print("Correct"
+        if letter == guess
+        else "Incorrect")

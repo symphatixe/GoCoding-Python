@@ -1,11 +1,11 @@
 # Starter Code
 entry = input("Enter some text\n")
-list = []
+list1 = []
 
 
 # Write your code below!
 for num in range(len(entry)):
-    list.append(entry[num])
+    list1.append(entry[num])
 
 print("User Input: " + entry)
-print(f"Separated List: {list}")
+print(f"Separated List: {list1}")
