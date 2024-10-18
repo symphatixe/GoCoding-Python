@@ -14,7 +14,7 @@ photoChoice = False
 TODO Create conditionals to check the age for corresponding tickets
     - child tickets are age less than 12, $5
     - youth tickets are age less than or equal to 18, $7
-    - adult tickets are anything else greater than 18
+    - adult tickets are anything else greater than 18, $12
 """
 #TODO Make sure the variables are set to lower() globally
 #TODO Create a conditional to check the user's choice for a photo, changing the boolean and adding $3
