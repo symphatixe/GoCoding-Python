@@ -19,11 +19,11 @@ password = ""
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 if (difficulty.lower() == "easy"):
     for _ in range(nr_letters):
-        password.append(random.choice(letters))
+        password += random.choice(letters)
     for _ in range(nr_symbols):
-        password.append(random.choice(symbols))
+        password += random.choice(symbols)
     for _ in range(nr_numbers):
-        password.append(random.choice(numbers))
+        password += random.choice(numbers)
 
     print("Easy password: " + password)
 
