@@ -8,7 +8,7 @@ photoChoice = False
 
 # Write your code below!
 
-#TODO Create a conditional to check the height of the user making sure it is greater than or equal to 120, and conditions for not 
+#TODO Create a conditional to check the height of the user making sure it is greater than or equal to 120, and conditions for not
 # meeting height and exiting for invalid input
 """
 TODO Create conditionals to check the age for corresponding tickets

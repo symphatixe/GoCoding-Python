@@ -9,6 +9,7 @@ size = input("What size pizza do you want? S, M, or L \n").lower()
 # extra cheese is $1 for all sizes
 # input() must be placed in between the print() statements to print them out during execution, instead of at the end
 
+#TODO Create a variable to store the total
 #TODO Create a set of conditionals to check the size and add it according to the comments, and print out text
 #TODO Create an input field for pepperoni and set it to be lowercase using lower()
 #TODO Create a set of conditionals to check whether the pepperoni is added, add it according to the comments, and print out text (using and & or)

@@ -48,9 +48,6 @@ if (height >= 120):
     else:
         print(f"\nHello, your total is {total} and does not include a photo.")
 
-elif (height < 120):
-    print("You are too short, cannot ride the rollercoaster")
-
 else:
     print("Not an applicable input.")
     exit()

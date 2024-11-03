@@ -37,7 +37,7 @@ while not game_end:
 
 
     if guess not in choice:
-        # TODO: inform the user that they have entered the wrong letter using a condition
+        # TODO: inform the user that they have entered the wrong letter using a condition and print the amount of lives
 
         lives -= 1
         if lives == 0:

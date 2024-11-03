@@ -47,7 +47,7 @@ if (extra_cheese == "y"):
     total += 1
     print(f"You ordered extra cheese for your pizza. Your total now is ${total} \n")
 elif (extra_cheese == "n"):
-    print(f"You have chosen to not add pepperoni. Your total is still {total}")
+    print(f"You have chosen to not add cheese. Your total is still {total}")
 else:
     print("Not an applicable input.")
     exit()
