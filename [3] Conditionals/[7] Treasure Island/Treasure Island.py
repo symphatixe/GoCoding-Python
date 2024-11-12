@@ -29,6 +29,6 @@ print("Your mission is to find the treasure.")
 
 #TODO Make sure to set the choices as lower() globally instead of doing for each use of the variable
 #TODO Create a conditional to check left or right
-#TODO If the user goes left, print something, otherwise right they lose
+#TODO If the user goes left, print something, otherwise right they lose 
 #TODO Create another conditional to check going through a sewer or waiting
 #TODO Create a conditional to check the choice of 3 doors, and also waiting. One of the doors should be a winning condition.

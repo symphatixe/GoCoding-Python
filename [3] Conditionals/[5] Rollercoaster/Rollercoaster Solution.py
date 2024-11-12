@@ -12,27 +12,24 @@ if (height >= 120):
     age = int(input("What is your age? \n"))
 
     if age < 12:
-        print(f"Child tickets are $5. Ticket amount added to bill. Total is now {total}\n")
         total += 5
+        print(f"Child tickets are $5. Ticket amount added to bill. Total is now {total}\n")
 
     elif age <= 18:
-        print(f"Youth tickets are $7. Ticket amount added to bill. Total is now {total}\n")
         total += 7
-
-    elif age > 18:
-        print(f"Adult tickets are $12. Ticket amount added to bill. Total is now {total}\n")
-        total += 12
+        print(f"Youth tickets are $7. Ticket amount added to bill. Total is now {total}\n")
 
     else:
-        print("Not an applicable input")
-        exit()
+        total += 12
+        print(f"Adult tickets are $12. Ticket amount added to bill. Total is now {total}\n")
+
 
     photo = input("Would you like a photo? Please enter y or n. \n").lower()
 
     if (photo == "y"):
-        print(f"You have added the photo package. Total is now {total}")
-        photoChoice = True
         total += 3
+        photoChoice = True
+        print(f"You have added the photo package. Total is now {total}")
 
     elif (photo == "n"):
         print(f"Photo package not chosen. Total is still {total}")
@@ -49,5 +46,4 @@ if (height >= 120):
         print(f"\nHello, your total is {total} and does not include a photo.")
 
 else:
-    print("Not an applicable input.")
-    exit()
+    print("You are too short to ride the rollercoaster")

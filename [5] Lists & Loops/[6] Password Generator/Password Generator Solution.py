@@ -9,7 +9,7 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input("How many symbols would you like?\n"))
 nr_numbers = int(input("How many numbers would you like?\n"))
 
-difficulty = input("Easy password or hard password?\n")
+difficulty = input("Easy password or hard password?\n").lower()
 password = ""
 
 
@@ -17,7 +17,7 @@ password = ""
 
 #Easy Level - Order not randomized:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-if (difficulty.lower() == "easy"):
+if (difficulty == "easy"):
     for _ in range(nr_letters):
         password += random.choice(letters)
     for _ in range(nr_symbols):
@@ -30,7 +30,7 @@ if (difficulty.lower() == "easy"):
 
 #Hard Level - Order of characters randomized:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-elif (difficulty.lower() == "hard"):
+elif (difficulty == "hard"):
     characters = []
 
     for _ in range(nr_letters):

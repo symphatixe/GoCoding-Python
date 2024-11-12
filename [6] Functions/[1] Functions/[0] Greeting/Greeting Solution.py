@@ -10,4 +10,6 @@ def greet_name(name):
 
 greet()
 print("\n")
-greet_name("Vadim")
+
+name = input("Enter your name\n").lower()
+greet_name(name)
