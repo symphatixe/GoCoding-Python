@@ -11,8 +11,8 @@ photoChoice = False
 #TODO Create a match case for the height along with checking whether the input is valid
 # the user must of height greater than 120 to ride, otherwise tell them no can do
 """
-TODO Create a function with match case to check the age for corresponding number of tickets and their price
-TODO Get the amount of tickets that want to be purchased
+TODO Create a function with match case to check the age for the ticket price
+TODO Get the amount of the tickets that want to be purchased
     - child tickets are age less than 12, $5
     - youth tickets are age less than or equal to 18, $7
     - adult tickets are anything else greater than 18
