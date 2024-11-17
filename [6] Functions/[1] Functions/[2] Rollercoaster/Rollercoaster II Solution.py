@@ -48,7 +48,8 @@ match height:
         print("You can ride the ArgoPrep Rollercoaster. \n")
 
         age = int(input("What is your age? \n"))
-        ticket(age)
+        people = int(input("How many people are there?\n"))
+        ticket(age, people)
 
         photoInput = input("Would you like a photo? Please enter y or n. \n").lower()
         photo(photoInput)

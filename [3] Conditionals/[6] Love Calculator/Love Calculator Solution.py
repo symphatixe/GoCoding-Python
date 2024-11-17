@@ -21,13 +21,11 @@ love_count += combined_name.count("o")
 love_count += combined_name.count("v")
 love_count += combined_name.count("e")
 
-true = str(true_count)
-love = str(love_count)
-total = int(true + love)
+total_count = int(str(true_count) + str(love_count))
 
-if (total < 10 or total > 90):
-    print(f"Your love score is {total} and you go together like coke and mentos.")
-elif (total >= 40 and total <= 50):
-    print(f"Your score is {total} you are alright together.")
+if (total_count < 10 or total_count > 90):
+    print(f"Your love score is {total_count} and you go together like coke and mentos.")
+elif (total_count >= 40 and total_count <= 50):
+    print(f"Your score is {total_count} you are alright together.")
 else:
-    print(f"Your score is {total}.")
+    print(f"Your score is {total_count}.")
