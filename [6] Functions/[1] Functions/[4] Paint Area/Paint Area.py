@@ -6,8 +6,8 @@ print("""
       Given a width and height, determine the maximum number of meters that can be covered.
       """)
 
-height = float(input("Enter the height of the wall\n")).lower()
-weight = float(input("Enter the width of the wall\n")).lower()
+height = float(input("Enter the height of the wall\n"))
+weight = float(input("Enter the width of the wall\n"))
 coverage = 5
 
 

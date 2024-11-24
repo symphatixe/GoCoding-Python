@@ -5,7 +5,7 @@ weight = float(input("enter your weight in kg: \n"))
 
 # Write your code below!
 
-#TODO copy the code from the BMI calculator and use the height and weight variables instead of the casted ones
+#TODO copy the code from the BMI calculator and use the height and weight variables instead of the casted variables
 """
 TODO Use conditionals to print out the corresponding text with an f-string based on the BMI:
     - underweight for bmi less than 18.5

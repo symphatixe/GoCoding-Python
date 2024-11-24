@@ -8,7 +8,8 @@ name2 = input("What is their name? \n")
 
 #TODO Combine the names together to simplify the counting of letters
 #TODO Create two variables: count for true and count for love
-#TODO Concatenate the two counts by casting and make sure it is an int
+#TODO Count up the amount of letters of true and love in the combined name
+#TODO Concatenate the two counts by casting and make sure it is an int afterwards (5 and 5 should equal to 55 not 10)
 """
 TODO Create conditionals for the love scores
     - love scores less than 10 or greater than 90, are super compatible

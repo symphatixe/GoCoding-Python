@@ -18,5 +18,5 @@ TODO Create conditionals to check the age for corresponding tickets
 """
 #TODO Make sure the variables are set to lower() globally
 #TODO Create a conditional to check the user's choice for a photo, changing the boolean and adding $3
-#TODO Create a conditional to print out whether they chose a photo or not and the proper total
+#TODO Create a conditional to print out whether they chose a photo or not and the proper total using the boolean
 #TODO Create simple exceptions using else and exit() to stop the program running

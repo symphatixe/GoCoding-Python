@@ -9,6 +9,6 @@ position = input("Where do you want to put the treasure? \n")
 
 # Write your code below!
 
-#TODO Using the position variable, separate it into a column and row variable based on the map variable
+#TODO Using the position variable, separate it into a column and row variable based on the map using indexing
 #TODO Correctly access the row and and the column to place the x in the list accordingly
-#TODO Lastly, print out the list using the f-string in the starter code
+#TODO Lastly, print out the list using the print() in the starter code
