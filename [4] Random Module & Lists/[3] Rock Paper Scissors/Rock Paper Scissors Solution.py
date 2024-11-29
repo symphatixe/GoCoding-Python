@@ -67,7 +67,7 @@ match(user, computer):
             else "You chose rock, the computer chose scissors. Congratulations on squashing the computer!")
     case(2, _):
         print(userChoice + "\n" + computerChoice)
-        print("You chose paper, the computer chose scissors. You have failed."
+        print("You chose paper, the computer chose rock. You have failed."
             if computer == 1
             else "You chose paper, the computer chose rock. Congratulations on covering the computer!")
     case(3, _):
