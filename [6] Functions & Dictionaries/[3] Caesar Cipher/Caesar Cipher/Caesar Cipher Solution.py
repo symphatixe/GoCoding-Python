@@ -5,11 +5,6 @@ from art import logo
 
 # Write your code below
 
-#TODO Create a function called caesar that will combine both encode and decode into one
-#TODO Using a for loop we will determine what shift to apply depending on the operation
-# Example: If operation is encode + shift, decode is - shift
-#TODO Print the completed text using an f-string
-
 
 def caesar(text, shift, operation):
     completed_text = ""
@@ -20,8 +15,7 @@ def caesar(text, shift, operation):
     for letter in text:
         if letter in alphabet:
             position = alphabet.index(letter)
-            new_position = position + shift
-            completed_text += alphabet[new_position]
+            completed_text += alphabet[(position + shift) % 26]
         else:
             completed_text += letter
 
@@ -33,10 +27,19 @@ while True:
     text = input("Enter the text to encode\n").lower()
     shift = int(input("Enter the number of characters to shift\n")) % 26
 
+
+    if operation != "encode" and operation != "decode":
+        print("Invalid")
+
     caesar(operation=operation, text=text, shift=shift)
 
     selection = input("Would you like to go again? Type 'yes' or 'no'.\n").lower()
     match selection:
+        case "yes":
+            continue
         case "no":
-            print("Operation terminated")
-            break
+            print("Operation terminated.")
+            exit()
+        case _:
+            print("Invalid input.")
+            exit()

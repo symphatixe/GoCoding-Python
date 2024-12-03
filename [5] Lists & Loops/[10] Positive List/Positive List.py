@@ -1,7 +1,7 @@
 # Starter Code
 import random
 
-list = []
+list1 = []
 list2 = []
 
 

@@ -2,13 +2,11 @@
 import random
 
 print("Welcome to Hangman")
-word_list = ['baboon', 'books', 'bucket', 'coming', 'camel', 'sunshine']
+word_list = ["baboon", "books", "bucket", "coming", "camel", "sunshine"]
 
 
 # Write your code below!
 choice = random.choice(word_list).lower()
-
-print(choice)
 
 display = []
 for letter in choice:
