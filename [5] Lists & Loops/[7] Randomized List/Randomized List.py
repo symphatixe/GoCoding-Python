@@ -9,5 +9,5 @@ num = int(input("How many numbers do you want inside the list?\n"))
 #TODO Create a for loop that will append random numbers to the list from 0 - 9
 #TODO Print the list, use pop() to remove the last element and print the result using
 # an f-string
-#TODO Remove the first element using pop() with the first index as a parameter and print 
+#TODO Remove the first element using pop() with the first index as a parameter and print
 # the result using an f-string
