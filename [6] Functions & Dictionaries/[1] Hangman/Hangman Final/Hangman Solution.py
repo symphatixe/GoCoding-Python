@@ -14,7 +14,7 @@ game_end = False
 lives = 7
 
 choice = random.choice(hangman_words.word_list).lower()
-print(choice)
+# print(choice)
 # choice = random.choice(word_list).lower()
 
 
@@ -44,7 +44,7 @@ while not game_end:
 
     if guess not in choice:
         lives -= 1
-        print(f"You have guessed {guess}, that is not correct. You have {lives} left.")
+        print(f"You have guessed {guess}, that is not correct. You have {lives} lives left.")
 
         if lives == 0:
             game_end = True

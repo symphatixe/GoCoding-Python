@@ -4,7 +4,7 @@ from art import logo
 
 
 # Write your code below
-
+print(logo)
 
 def caesar(text, shift, operation):
     completed_text = ""
@@ -24,7 +24,7 @@ def caesar(text, shift, operation):
 
 while True:
     operation = input("Enter 'encode' to encrypt the text or 'decode' to find out the text!\n").lower()
-    text = input("Enter the text to encode\n").lower()
+    text = input("Enter the text to encode or decode\n").lower()
     shift = int(input("Enter the number of characters to shift\n")) % 26
 
 
