@@ -4,15 +4,15 @@ total = 0
 
 
 # Write your code below!
-for number in range(0, 101, 2):
+for number in range(1, 101, 2):
     total += number
 
 """
 alternate solution:
 
-for number in range(0, 101):
+for number in range(1, 101):
     if (number % 2 == 0):
         total += number
 """
 
-print(f"Even numbers added up from 0 - 100 is {total}")
+print(f"Even numbers added up from 1 - 100 is {total}")

@@ -15,7 +15,7 @@ password = ""
 
 # Write your code below!
 
-#TODO Create a set of conditionals to detect whether the user chooses the easy or hard password and
+#TODO Create a match case to detect whether the user chooses the easy or hard password and
 # check for invalid inputs
 
 #Easy Level - Order not randomized:

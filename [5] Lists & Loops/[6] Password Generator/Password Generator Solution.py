@@ -15,36 +15,38 @@ password = ""
 
 # Write your code below!
 
+match difficulty:
+
 #Easy Level - Order not randomized:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-if (difficulty == "easy"):
-    for _ in range(nr_letters):
-        password += random.choice(letters)
-    for _ in range(nr_symbols):
-        password += random.choice(symbols)
-    for _ in range(nr_numbers):
-        password += random.choice(numbers)
+    case "easy":
+        for _ in range(nr_letters):
+            password += random.choice(letters)
+        for _ in range(nr_symbols):
+            password += random.choice(symbols)
+        for _ in range(nr_numbers):
+            password += random.choice(numbers)
 
-    print("Easy password: " + password)
+        print("Easy password: " + password)
 
 
 #Hard Level - Order of characters randomized:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-elif (difficulty == "hard"):
-    characters = []
+    case "hard":
+        characters = []
 
-    for _ in range(nr_letters):
-        characters.append(random.choice(letters))
-    for _ in range(nr_symbols):
-        characters.append(random.choice(symbols))
-    for _ in range(nr_numbers):
-        characters.append(random.choice(numbers))
+        for _ in range(nr_letters):
+            characters.append(random.choice(letters))
+        for _ in range(nr_symbols):
+            characters.append(random.choice(symbols))
+        for _ in range(nr_numbers):
+            characters.append(random.choice(numbers))
 
-    random.shuffle(characters)
-    for char in characters:
-        password += char
+        random.shuffle(characters)
+        for char in characters:
+            password += char
 
-    print("Hard password: " + password)
+        print("Hard password: " + password)
 
-else:
-    print("Invalid choice, try again")
+    case _:
+        print("Invalid choice, try again")
