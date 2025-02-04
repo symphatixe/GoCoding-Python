@@ -4,7 +4,7 @@ total = 0
 
 
 # Write your code below!
-for number in range(1, 101, 2):
+for number in range(0, 101, 2):
     total += number
 
 """

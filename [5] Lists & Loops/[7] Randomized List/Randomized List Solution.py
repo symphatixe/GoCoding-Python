@@ -4,13 +4,14 @@ num = int(input("How many numbers do you want inside the list?\n"))
 
 
 # Write your code below!
-list = []
+list1 = []
+total = 0
 
 for _ in range(num):
     list.append(random.randint(0, 9))
 
-print(list)
-list.pop()
-print(f"{list} after removing the last element")
-print(list.pop(0))
-print(f"{list} after removing the first element")
+for num in list1:
+    total += num
+
+
+print(f"Randomized list {list1}, total of all evens {total}")
