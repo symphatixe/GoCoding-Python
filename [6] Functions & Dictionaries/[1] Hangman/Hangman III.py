@@ -79,4 +79,5 @@ word_list = []
 # - How many lives are left
 #TODO Create a while loop that will run while game has not ended
 #TODO Inside the while loop we will display the word as underscores to guess
-#TODO The player can guess what 
+#TODO The player can guess a letter and will take away lives if the guess is incorrect
+#TODO If there are no underscores left then the player has won.
