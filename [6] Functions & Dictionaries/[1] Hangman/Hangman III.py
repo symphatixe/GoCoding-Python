@@ -69,7 +69,7 @@ stages = [
 
 
 print("Welcome to Hangman")
-word_list = []
+word_list = ["baboon", "books", "bucket", "coming", "camel", "sunshine"]
 
 
 # Write your code below!
