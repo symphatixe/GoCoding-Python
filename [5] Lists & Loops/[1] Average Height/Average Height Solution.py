@@ -8,8 +8,8 @@ student_heights = [180, 124, 165, 173, 189, 169, 146]
 
 total = 0
 count = 0
-for h in student_heights:
-    total += h
+for height in student_heights:
+    total += height
     count += 1
 
 print(f"The average is {round(total / count, 2)}")
