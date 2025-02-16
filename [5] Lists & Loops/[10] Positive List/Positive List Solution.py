@@ -6,7 +6,7 @@ list2 = []
 
 
 # Write your code below!
-for num in range(35):
+for _ in range(35):
     number = random.randint(-20, 20)
     list1.append(number)
     if (number >= 0):
