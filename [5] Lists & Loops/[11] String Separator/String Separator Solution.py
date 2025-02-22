@@ -4,8 +4,11 @@ list1 = []
 
 
 # Write your code below!
-for num in range(len(entry)):
-    list1.append(entry[num])
+for position in range(len(entry)):
+    list1.append(entry[position])
+
+for letter in entry:
+    list1.append(letter)
 
 print("User Input: " + entry)
 print(f"Separated List: {list1}")

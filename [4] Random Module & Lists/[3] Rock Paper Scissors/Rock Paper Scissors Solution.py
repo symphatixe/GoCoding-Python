@@ -37,20 +37,14 @@ computerChoice = ""
 userChoice = ""
 
 match computer:
-    case 1:
-        computerChoice = rock
-    case 2:
-        computerChoice = paper
-    case 3:
-        computerChoice = scissors
+    case 1: computerChoice = rock
+    case 2: computerChoice = paper
+    case 3: computerChoice = scissors
 
 match user:
-    case 1:
-        userChoice = rock
-    case 2:
-        userChoice = paper
-    case 3:
-        userChoice = scissors
+    case 1: userChoice = rock
+    case 2: userChoice = paper
+    case 3: userChoice = scissors
     case _:
         print("Invalid input")
         exit()

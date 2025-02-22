@@ -39,8 +39,7 @@ if (height >= 120):
         exit()
 
 
-    if (photoChoice):
-        print(f"\nHello, your total is ${total} and includes a photo.")
+    if (photoChoice): print(f"\nHello, your total is ${total} and includes a photo.")
 
     else:
         print(f"\nHello, your total is {total} and does not include a photo.")

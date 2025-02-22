@@ -87,24 +87,20 @@ for letter in choice:
 while not game_end:
 
   print(f"The word to guess is {' '.join(display)}\n")
-  guess = input("Guess a letter\n")
+  guess = input("Guess a letter\n").lower()
 
   for position in range(len(choice)):
       letter = choice[position]
       if (letter == guess):
           display[position] = guess
 
-
-  print(stages[lives - 1])
-
-
   if guess not in choice:
       lives -= 1
+      print(stages[lives - 1])
       if lives == 0:
           game_end = True
           print(f"You have lost, the word was {choice}")
 
   if ("_") not in display:
-      game_end = True
-      print(f"{' '.join(display)}")
-      print(f"You have won, the word is {choice}!")
+    game_end = True
+    print("Congratulations for guessing the word!!! :D")

@@ -40,5 +40,4 @@ if (extra_cheese == "y"):
 else:
     print(f"You have chosen to not add extra cheese. Your total is still {total}")
 
-
 print(f"Your final bill is: ${total}.")

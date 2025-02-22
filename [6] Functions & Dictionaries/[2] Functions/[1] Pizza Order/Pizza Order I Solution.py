@@ -18,26 +18,21 @@ def bill(s, p, c):
     global total
 
     match s:
-        case "s":
-            total += 15
-        case "m":
-            total += 20
-        case "l":
-            total += 25
+        case "s": total += 15
+        case "m": total += 20
+        case "l": total += 25
         case _:
             print("Invalid input, no size like that exists")
             exit()
 
     match p:
-        case "y":
-            total += 2 if size == "s" else 3
+        case "y": total += 2 if size == "s" else 3
         case _:
             print("What did you enter besides yes or no?")
             exit()
 
     match c:
-        case "y":
-            total += 1
+        case "y": total += 1
         case _:
             print("What did you enter besides yes or no?")
             exit()

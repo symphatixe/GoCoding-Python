@@ -8,8 +8,7 @@ student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
 
 max = 0
 
-for i in student_scores:
-    if (i > max):
-        max = i
+for score in student_scores:
+    if (score > max): max = score
 
 print(f"The highest student score is {max}")

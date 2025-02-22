@@ -31,8 +31,7 @@ choice1 = input("Pick a direction to go, left or right. \n").lower()
 if (choice1 == "left"):
     choice2 = input("There is a small sewer in front of you, do you swim through it or wait? \n").lower()
 
-    if (choice2 == "swim"):
-        print("You are attacked by mutated trout, game over!")
+    if (choice2 == "swim"): print("You are attacked by mutated trout, game over!")
     elif (choice2 == "wait"):
         choice3 = input("There are three doors in front of you, red, blue, and yellow. You can also choose to walk back. Choose between red, blue, yellow, and back. \n").lower()
 
@@ -44,11 +43,9 @@ if (choice1 == "left"):
             print("You found the treasure!")
         else:
             print("You chose to walk back or wait, a huge rock falls from the top and crushes you, game over!")
-    else:
-        print("You did not wait or swim through the water, the sewer got flooded with water!!!")
+
+    else: print("You did not wait or swim through the water, the sewer got flooded with water!!!")
 
 
-elif (choice1 == "right"):
-    print("You fell into a hole, game over!")
-else:
-    print("You waited too long and a spike trap appeared under you!")
+elif (choice1 == "right"): print("You fell into a hole, game over!")
+else: print("You waited too long and a spike trap appeared under you!")

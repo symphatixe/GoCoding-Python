@@ -9,8 +9,7 @@ print(logo)
 def caesar(text, shift, operation):
     completed_text = ""
 
-    if operation == "decode":
-        shift *= -1
+    if operation == "decode": shift *= -1
 
     for letter in text:
         if letter in alphabet:
@@ -28,8 +27,7 @@ while True:
     shift = int(input("Enter the number of characters to shift\n")) % 26
 
 
-    if operation != "encode" and operation != "decode":
-        print("Invalid")
+    if operation != "encode" and operation != "decode": print("Invalid")
 
     caesar(operation=operation, text=text, shift=shift)
 

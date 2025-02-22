@@ -14,14 +14,14 @@ true_count += combined_name.count("r")
 true_count += combined_name.count("u")
 true_count += combined_name.count("e")
 
-love_count = 0
+friend_count = 0
 
-love_count += combined_name.count("l")
-love_count += combined_name.count("o")
-love_count += combined_name.count("v")
-love_count += combined_name.count("e")
+friend_count += combined_name.count("l")
+friend_count += combined_name.count("o")
+friend_count += combined_name.count("v")
+friend_count += combined_name.count("e")
 
-total_count = int(str(true_count) + str(love_count))
+total_count = int(str(true_count) + str(friend_count))
 
 if (total_count < 10 or total_count > 90):
     print(f"Your love score is {total_count} and you go together like coke and mentos.")
