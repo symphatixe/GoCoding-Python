@@ -14,7 +14,7 @@ photoChoice = False
 TODO Create a function with match case to check the age for corresponding number of tickets and their price
     - child tickets are age less than 12, $5
     - youth tickets are age less than or equal to 18, $7
-    - adult tickets are anything else greater than 18
+    - adult tickets are anything else greater than 18, $12
 """
 #TODO Make sure the variables are set to lower() globally
 #TODO Create a function to check the user's choice for a photo

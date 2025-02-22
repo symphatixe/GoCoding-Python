@@ -11,7 +11,7 @@ def ticket():
 
 
     while True:
-        age = int(input("What is your age? \n"))
+        age = int(input("What is the people's age? \n"))
         people = int(input("How many people are there?\n"))
 
         match age:
