@@ -26,10 +26,11 @@ guesses = []
 while not game_end:
     print(f"The word to guess is {' '.join(display)}\n")
     guess = input("Guess a letter\n")
-    print(f"Guessed letters {guesses}")
 
     if guess not in guesses:
         guesses.append(guess)
+        print(f"Guessed letters {guesses}")
+        
         lives -= 1
         print(art.stages[lives - 1])
         print(f"You have guessed {guess}, that is not correct. You have {lives} lives left.")
