@@ -30,15 +30,17 @@ while not game_end:
     if guess not in guesses:
         guesses.append(guess)
         print(f"Guessed letters {guesses}")
-        
-        lives -= 1
-        print(art.stages[lives - 1])
-        print(f"You have guessed {guess}, that is not correct. You have {lives} lives left.")
 
-        for position in range(len(choice)):
-            letter = choice[position]
-            if (letter == guess):
-                display[position] = guess
+        if guess not in choice:
+            lives -= 1
+            print(f"You have guessed {guess}, that is not correct. You have {lives} lives left.")
+        else:
+            for position in range(len(choice)):
+                letter = choice[position]
+                if (letter == guess):
+                    display[position] = guess
+
+        print(art.stages[lives - 1])
     else:
         print(f"You have already tried {guess}")
 
