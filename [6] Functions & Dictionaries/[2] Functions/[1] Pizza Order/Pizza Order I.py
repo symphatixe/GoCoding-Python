@@ -16,3 +16,5 @@ extra_cheese = input("Do you want extra cheese? Y or N \n").lower()
 # pepperoni
 #TODO Inside the match case use a wildcard to check for invalid input
 #TODO Print out the final bill using an f-string
+
+total = 0

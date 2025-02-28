@@ -39,11 +39,10 @@ while not game_end:
                 letter = choice[position]
                 if (letter == guess):
                     display[position] = guess
-
-        print(art.stages[lives - 1])
     else:
-        print(f"You have already tried {guess}")
+        print(f"You have already tried {guess}, you have {lives} lives left.")
 
+    print(art.stages[lives - 1])
 
     if lives == 0:
         game_end = True
