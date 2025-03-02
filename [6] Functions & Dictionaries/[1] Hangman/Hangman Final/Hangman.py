@@ -28,23 +28,23 @@ guesses = []
 while not game_end:
     print(f"The word to guess is {' '.join(display)}\n")
     guess = input("Guess a letter\n")
-    print(f"Guessed letters {guesses}")
 
-    # TODO Add a conditional to check for the guess already existing inside the word
     if guess not in guesses:
         # TODO Add the incorrect letter to the guesses list
-        # TODO Import the stages from the hangman_art file, there are two versions using import and the from
+        # TODO Print out the list of guessed letters
+        # TODO Add a conditional to check for the guess already existing inside the word
         # TODO Inform the user that they have entered the wrong letter using a condition and print the amount of lives
         lives -= 1
-        print(stages[lives - 1])
 
         for position in range(len(choice)):
             letter = choice[position]
             if (letter == guess):
                 display[position] = guess
     else:
-        print(f"You have already tried {guess}")
+        # TODO Print out the list of guessed letters
+        print(f"You have already tried {guess}, you have {lives} lives left.")
 
+    print(stages[lives - 1])
 
     if lives == 0:
         game_end = True
