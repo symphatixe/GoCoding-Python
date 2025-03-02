@@ -1,9 +1,9 @@
 # Starter Code
 import random
 import hangman_words as words
-# from hangman_words import word_list as words
+# from hangman_words import word_list
 import hangman_art as art
-# from hangman_art import stages as art
+# from hangman_art import stages
 
 
 
