@@ -13,7 +13,7 @@ student_scores = {
 
 #NOTE The dictionary has names as the keys of the dictionary, and their scores are
 # the values of the dictionary.
-#TODO Create an empty dictionary that converts their scores to letter grades named student_grades. 
+#TODO Create an empty dictionary that converts their scores to letter grades named student_grades.
 #TODO Make sure the keys are set properly to the student names, and the letter grades
 # are set using a for loop
 #TODO Grading schema:
