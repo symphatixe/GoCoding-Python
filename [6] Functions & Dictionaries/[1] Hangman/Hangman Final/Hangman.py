@@ -30,7 +30,7 @@ while not game_end:
     letter = input("Guess a letter\n")
 
     if letter not in guesses:
-        # TODO Add the incorrect letter to the guesses list
+        # TODO Add the letter to the guesses list
         # TODO Print out the list of guessed letters
         
         # TODO Add a conditional to check for the letter already existing inside the word
