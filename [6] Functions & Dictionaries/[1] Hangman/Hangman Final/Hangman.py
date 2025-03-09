@@ -27,22 +27,24 @@ guesses = []
 
 while not game_end:
     print(f"The word to guess is {' '.join(display)}\n")
-    guess = input("Guess a letter\n")
+    letter = input("Guess a letter\n")
 
-    if guess not in guesses:
+    if letter not in guesses:
         # TODO Add the incorrect letter to the guesses list
         # TODO Print out the list of guessed letters
-        # TODO Add a conditional to check for the guess already existing inside the word
+        
+        # TODO Add a conditional to check for the letter already existing inside the word
+        # TODO Take away one life and print out the list of guessed letters again
         # TODO Inform the user that they have entered the wrong letter using a condition and print the amount of lives
-        lives -= 1
+
 
         for position in range(len(choice)):
             letter = choice[position]
-            if (letter == guess):
-                display[position] = guess
+            if (letter == letter):
+                display[position] = letter
     else:
         # TODO Print out the list of guessed letters
-        print(f"You have already tried {guess}, you have {lives} lives left.")
+        print(f"You have already tried {letter}, you have {lives} lives left.")
 
     print(stages[lives - 1])
 
