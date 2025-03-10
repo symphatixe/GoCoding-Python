@@ -32,7 +32,7 @@ while not game_end:
     if letter not in guesses:
         # TODO Add the letter to the guesses list
         # TODO Print out the list of guessed letters
-        
+
         # TODO Add a conditional to check for the letter already existing inside the word
         # TODO Take away one life and print out the list of guessed letters again
         # TODO Inform the user that they have entered the wrong letter using a condition and print the amount of lives
