@@ -12,13 +12,13 @@ def ticket(response):
     match response:
         case _ if response < 12:
             total += 5
-            print(f"Child tickets are $5. Ticket amount added to bill. Total is now {total}\n")
+            print(f"Child tickets are $5. Ticket amount added to bill. Total is now ${total}\n")
         case _ if response <= 18:
             total += 7
-            print(f"Youth tickets are $7. Ticket amount added to bill. Total is now {total}\n")
+            print(f"Youth tickets are $7. Ticket amount added to bill. Total is now ${total}\n")
         case _:
             total += 12
-            print(f"Adult tickets are $12. Ticket amount added to bill. Total is now {total}\n")
+            print(f"Adult tickets are $12. Ticket amount added to bill. Total is now ${total}\n")
 
 
 def photo(response):
@@ -29,9 +29,9 @@ def photo(response):
         case "y":
             total += 3
             photoChoice = True
-            print(f"You have added the photo package. Total is now {total}")
+            print(f"You have added the photo package. Total is now ${total}")
         case "n":
-            print(f"Photo package not chosen. Total is still {total}")
+            print(f"Photo package not chosen. Total is still ${total}")
         case _:
             print("Not an applicable input.")
             exit()
@@ -40,7 +40,7 @@ def photo(response):
 def bill(response):
     print(f"\nHello, your total is ${total} and includes a photo."
           if response
-          else f"\nHello, your total is {total} and does not include a photo.")
+          else f"\nHello, your total is ${total} and does not include a photo.")
 
 
 match height:

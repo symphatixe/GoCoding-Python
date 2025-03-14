@@ -1,7 +1,7 @@
 # Starter Code
 print("Welcome to the ArgoPrep Rollercoaster. \n")
 
-height = int(input("What is your height? \n"))
+user_response = input("Do you want to run the ticket program?\n").lower()
 total = 0
 photoChoice = False
 people = []
@@ -9,8 +9,7 @@ people = []
 # Write your code below!
 
 
-#TODO Create a match case for the height along with checking whether the input is valid
-# the user must of height greater than 120 to ride, otherwise tell them no can do
+#TODO Create a match case for whether the person wants to run the rollercoaster ticket program
 """
 TODO Create a function with match case to check the age for corresponding number of tickets and their price
 TODO In this function, we are going to split() to take a list of ages and then add to the total based on the age
