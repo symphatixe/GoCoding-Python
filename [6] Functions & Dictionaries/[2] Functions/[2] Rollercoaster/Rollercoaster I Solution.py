@@ -6,18 +6,19 @@ total = 0
 photoChoice = False
 
 # Write your code below!
-def ticket(response):
+def ticket(people):
     global total
 
-    match response:
-        case _ if response < 12:
-            total += 5
+    age = int(input("What is your age? \n"))
+    match age:
+        case _ if age < 12:
+            total += (5 * people)
             print(f"Child tickets are $5. Ticket amount added to bill. Total is now ${total}\n")
-        case _ if response <= 18:
-            total += 7
+        case _ if age <= 18:
+            total += (7 * people)
             print(f"Youth tickets are $7. Ticket amount added to bill. Total is now ${total}\n")
         case _:
-            total += 12
+            total += (12 * people)
             print(f"Adult tickets are $12. Ticket amount added to bill. Total is now ${total}\n")
 
 
@@ -39,7 +40,7 @@ def photo(response):
 
 def bill(response):
     print(f"\nHello, your total is ${total} and includes a photo."
-          if response
+          if response 
           else f"\nHello, your total is ${total} and does not include a photo.")
 
 
@@ -47,8 +48,8 @@ match height:
     case _ if height >= 120:
         print("You can ride the ArgoPrep Rollercoaster. \n")
 
-        age = int(input("What is your age? \n"))
-        ticket(age)
+        people = int(input("How many people want tickets?\n"))
+        ticket(people)
 
         photoInput = input("Would you like a photo? Please enter y or n. \n").lower()
         photo(photoInput)

@@ -1,7 +1,9 @@
 # Tip Calculator
+
 The purpose of this task is to create a tip calculator and print out how much each person should pay.
 
 ### Skills
+
 - Understand how to cast a variable from a `string` into a `float`.
 - Use PEMDAS and math operators.
 - Use the `round()` function to round the value.

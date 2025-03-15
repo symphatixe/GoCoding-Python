@@ -9,3 +9,5 @@ float_weight = float(weight)
 
 height_squared = float_height**2
 print(f"Your BMI is {float_weight // height_squared}")
+# BMI = float_weight // height_squared
+# print(f"Your BMI is {BMI}")

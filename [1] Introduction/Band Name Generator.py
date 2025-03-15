@@ -6,5 +6,8 @@ pet = input("What is the name of your first pet? \n")
 
 # Write your code below!
 
-#TODO Print out a string that concatenates city and pet as the new band name
-# Your new band name could be (city) (pet)
+# TODO Complete the tasks below!
+"""
+Print out a string that concatenates city and pet as the new band name.
+EXAMPLE: Your new band name could be (city) (pet)
+"""

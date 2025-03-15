@@ -8,7 +8,7 @@ photoChoice = False
 # Write your code below!
 
 
-#TODO Create a match case for the height along with checking whether the input is valid
+#TODO Create a match case for whether the person wants to run the rollercoaster ticket program
 # the user must of height greater than 120 to ride, otherwise tell them no can do
 """
 TODO Create a function with match case to check the age for the ticket price
