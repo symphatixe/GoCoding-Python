@@ -8,6 +8,7 @@ travel_log = {
 
 # Write your code below
 
+#! Dictionary with nested lists
 travel_log = {
     "France": {
         "Cities Visited": ["Paris", "Lille", "Dijon"],
@@ -19,6 +20,7 @@ travel_log = {
     },
 }
 
+#! List with nested dictionaries
 travel_log = [
     {
         "Country": "France",

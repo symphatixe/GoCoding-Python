@@ -8,10 +8,12 @@ travel_log = {
 
 # Write your code below
 
-#TODO Create a dictionary to store the cities that were visited for each capital
-#TODO Inside the dictionary also add another key-value pair to store the total
-# visits as an input
-#TODO Create another list named travel_log, but nest two dictionaries representing
-# the country and its information
-#TODO Add an entry to the list travel_log and add a country, some cities, and the total visits
+# TODO Complete the tasks below!
+"""
+» Create a dictionary to store the cities that were visited for each capital.
+» Inside the dictionary also add another key-value pair to store the total visits as an input.
+» Create another list named travel_log, but nest two dictionaries representing
+the country and its information.
+» Add an entry to the list travel_log and add a country, some cities, and the total visits
+"""
 
