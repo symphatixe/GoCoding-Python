@@ -25,7 +25,7 @@ def find_highest_bidder(bids):
 
 while not bidding_finished:
     name = input("What is your name?\n")
-    amount = float(input("What is the bid amount?\n"))
+    amount = float(input("What is the bid amount, in $USD?\n"))
 
     auction_bids[name] = amount
     continue_bid = input("Bid has been added. Are there other bidders?\n").lower()
