@@ -6,17 +6,17 @@ word_list = ["baboon", "books", "bucket", "coming", "camel", "sunshine"]
 
 
 # Write your code below!
-choice = random.choice(word_list).lower()
+word = random.word(word_list).lower()
 
 display = []
-for letter in choice:
-    display += "_"
+for _ in word:
+    display.append("_")
 print(display)
 
-guess = input("Guess a letter\n")
+guess = input("Guess a letter\n").lower()
 
-for position in range(len(choice)):
-    letter = choice[position]
+for position in range(len(word)):
+    letter = word[position]
     if (letter == guess):
         display[position] = guess
 

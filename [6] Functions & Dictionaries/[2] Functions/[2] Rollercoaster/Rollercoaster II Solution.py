@@ -1,5 +1,5 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster. \n")
+print("Welcome to the GoCoding Rollercoaster. \n")
 
 user_response = input("Do you want to run the ticket program?\n").lower()
 total = 0
@@ -7,13 +7,13 @@ photoChoice = False
 people = []
 
 # Write your code below!
-def ticket():
+def tickets():
     global total
     global people
 
     while True:
-        age = input("What is the ages of everyone as a list, separated by commas? \n")
-        people = age.split(",")
+        ages = input("What is the ages of everyone as a list, separated by commas? \n")
+        people = ages.split(",")
 
         for person in people:
             match person:
@@ -55,16 +55,19 @@ def photo(people_list):
 
 
 def bill():
-    print(f"\nHello, your total is ${total}")
+    print(f"\nHello, your total is ${total} and includes photos."
+          if photoChoice
+          else f"\nHello, your total is ${total} and does not include photos.")
 
 
 match user_response:
     case "yes":
-        print("Running program! \n")
-        ticket()
+        print("Running program!\n")
+
+        tickets()
         photo(people)
         bill()
     case "no":
-        print("You chose to not run program")
+        print("You chose to not run the rollercoaster program.")
     case _:
         print("Unknown response, terminating!")

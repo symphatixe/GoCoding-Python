@@ -1,5 +1,5 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster. \n")
+print("Welcome to the GoCoding Rollercoaster. \n")
 
 user_response = input("Do you want to run the ticket program?\n").lower()
 total = 0

@@ -1,12 +1,12 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster. \n")
+print("Welcome to the GoCoding Rollercoaster. \n")
 
-height = int(input("What is your height? \n"))
+user_response = input("Do you want to run the rollercoaster?\n").lower()
 total = 0
 photoChoice = False
 
 # Write your code below!
-def ticket(people):
+def tickets(people):
     global total
 
     age = int(input("What is your age? \n"))
@@ -39,21 +39,24 @@ def photo(response):
 
 
 def bill(response):
-    print(f"\nHello, your total is ${total} and includes a photo."
-          if response 
-          else f"\nHello, your total is ${total} and does not include a photo.")
+    print(f"\nHello, your total is ${total} and includes photos."
+          if response
+          else f"\nHello, your total is ${total} and does not include photos.")
 
 
-match height:
-    case _ if height >= 120:
-        print("You can ride the ArgoPrep Rollercoaster. \n")
+
+match user_response:
+    case "yes":
+        print("You can ride the GoCoding Rollercoaster. \n")
 
         people = int(input("How many people want tickets?\n"))
-        ticket(people)
+        tickets(people)
 
         photoInput = input("Would you like a photo? Please enter y or n. \n").lower()
         photo(photoInput)
 
         bill(photoChoice)
+    case "no":
+        print("")
     case _:
         print("You are too short, cannot ride the rollercoaster")

@@ -1,5 +1,5 @@
 # Starter Code
-print("Welcome to the ArgoPrep Rollercoaster. \n")
+print("Welcome to the GoCoding Rollercoaster. \n")
 
 height = int(input("What is your height? \n"))
 total = 0
@@ -7,7 +7,7 @@ photoChoice = False
 
 # Write your code below!
 if (height >= 120):
-    print("You can ride the ArgoPrep Rollercoaster. \n")
+    print("You can ride the GoCoding Rollercoaster. \n")
 
     age = int(input("What is your age? \n"))
 

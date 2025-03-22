@@ -6,11 +6,11 @@ word_list = ["baboon", "books", "bucket", "coming", "camel", "sunshine"]
 
 
 # Write your code below!
-choice = random.choice(word_list).lower()
+word = random.choice(word_list).lower()
 
 guess = input("Guess a letter!\n").lower()
 
-for letter in choice:
+for letter in word:
     print("Correct"
         if letter == guess
         else "Incorrect")
