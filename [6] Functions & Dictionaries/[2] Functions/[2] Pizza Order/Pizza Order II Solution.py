@@ -30,6 +30,7 @@ def pepperoni_bill(response):
 
     match response:
         case "y": total += 2 if size == "s" else 3
+        case "n": print("No pepperoni added.")
         case _:
             print("What did you enter besides yes or no?")
             exit()
@@ -39,6 +40,7 @@ def cheese_bill(response):
 
     match response:
         case "y": total += 1
+        case "n": print("No extra cheese added.")
         case _:
             print("What did you enter besides yes or no?")
             exit()

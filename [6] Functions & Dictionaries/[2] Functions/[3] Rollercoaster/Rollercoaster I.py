@@ -1,7 +1,7 @@
 # Starter Code
 print("Welcome to the GoCoding Rollercoaster. \n")
 
-height = int(input("What is your height? \n"))
+entry = input("Do you want to run the rollercoaster program?\n").lower()
 total = 0
 photoChoice = False
 
@@ -9,7 +9,6 @@ photoChoice = False
 
 
 #TODO Create a match case for whether the person wants to run the rollercoaster ticket program
-# the user must of height greater than 120 to ride, otherwise tell them no can do
 """
 TODO Create a function with match case to check the age for the ticket price
 TODO Get the amount of the tickets that want to be purchased

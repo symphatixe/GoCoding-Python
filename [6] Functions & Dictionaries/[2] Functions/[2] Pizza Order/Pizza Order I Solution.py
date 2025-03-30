@@ -27,15 +27,19 @@ def bill(s, p, c):
 
     match p:
         case "y": total += 2 if size == "s" else 3
+        case "n": print("No pepperoni added.")
         case _:
             print("What did you enter besides yes or no?")
             exit()
 
     match c:
         case "y": total += 1
+        case "n": print("No extra cheeses added.")
         case _:
             print("What did you enter besides yes or no?")
             exit()
 
+    print(f"Your final bill is: ${total}.")
+
+
 bill(size, add_pepperoni, extra_cheese)
-print(f"Your final bill is: ${total}.")
