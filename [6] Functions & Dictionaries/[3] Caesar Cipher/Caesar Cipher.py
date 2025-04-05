@@ -12,28 +12,11 @@ shift = int(input("Enter the number of characters to shift\n"))
 » NOTE Use the index() function to find the position of a letter in the list
 
 » Create a function named encrypt that will take text and shift as parameters
-» 
+    › Create an empty string to store the text that will be changed
+    › Using a for loop, go over each letter to shift it using index()
+    › Add the shifted letters to the empty string
+    › Print out the original text and the encrypted text using an f-string
+» Repeat the same steps for the decrypt function, but use different parameters
+    › Namely: encoded_text and shift instead of text and shift
+» Create a match case to detect what operation the user wants and call the appropriate functions
 """
-
-#NOTE Use the index() function to find the position of an element within a list
-#TODO Create a function called encrypt that takes text and shift as parameters
-#TODO Inside the encrypt function shift each letter of the text using the parameter
-"""
-Example:
-    text = "hello"
-    shift = 3
-
-    encoded text = "khoor"
-"""
-
-#TODO Create a function called decrypt that will decode the encoded text
-#TODO Inside the decrypt function shift every letter back to get the original text
-"""
-Example:
-    text = "khoor"
-    shift = 3
-
-    encoded text = "hello"
-"""
-
-#TODO Create a match case to detect what operation the user wants and call the appropriate functions
