@@ -8,29 +8,6 @@ shift = int(input("Enter the number of characters shifted\n"))
 
 # Write your code below
 
-#TODO Create a function called encrypt that takes text and shift as parameters
-#TODO Inside the encrypt function shift each letter of the text using the parameter
-"""
-Example:
-    text = "hello"
-    shift = 3
-
-    encoded text = "khoor"
-"""
-
-#TODO Create a function called decrypt that will decode the encoded text
-#TODO Inside the decrypt function shift every letter back to get the original text
-"""
-Example:
-    text = "khoor"
-    shift = 3
-
-    encoded text = "hello"
-"""
-
-#TODO Create a match case to detect what operation the user wants and call the appropriate functions
-
-
 def encrypt(text, shift):
     encoded_text = ""
 

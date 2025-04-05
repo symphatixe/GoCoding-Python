@@ -15,7 +15,7 @@ game_end = False
 lives = 7
 
 # TODO Import the word list from the hangman_words file, there are two versions using import and the from
-choice = random.choice(word_list).lower()
+choice = random.choice(words).lower()
 
 
 display = []
@@ -27,9 +27,9 @@ guesses = []
 
 while not game_end:
     print(f"The word to guess is {' '.join(display)}\n")
-    letter = input("Guess a letter\n")
+    guess = input("Guess a letter\n")
 
-    if letter not in guesses:
+    if guess not in guesses:
         # TODO Add the letter to the guesses list
         # TODO Print out the list of guessed letters
 
@@ -40,7 +40,7 @@ while not game_end:
 
         for position in range(len(choice)):
             letter = choice[position]
-            if (letter == letter):
+            if (guess == letter):
                 display[position] = letter
     else:
         # TODO Print out the list of guessed letters
