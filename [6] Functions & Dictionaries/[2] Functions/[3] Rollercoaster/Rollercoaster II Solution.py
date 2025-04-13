@@ -12,15 +12,15 @@ def tickets():
     global people
 
     while True:
-        ages = input("What is the ages of everyone as a list, separated by commas? \n")
-        people = ages.split(",")
+        ages = input("What is the age of everyone as a list, separated by commas? \n")
+        people_ages = ages.split(",")
 
-        for person in people:
-            match person:
-                case _ if int(person) < 12:
+        for age in people_ages:
+            match age:
+                case _ if int(age) < 12:
                     total += 5
                     print(f"Child tickets are $5. Ticket amount added to bill. Total is now ${total}\n")
-                case _ if int(person) <= 18:
+                case _ if int(age) <= 18:
                     total += 7
                     print(f"Youth tickets are $7. Ticket amount added to bill. Total is now ${total}\n")
                 case _:
@@ -28,6 +28,7 @@ def tickets():
                     print(f"Adult tickets are $12. Ticket amount added to bill. Total is now ${total}\n")
 
 
+        people.extend(people_ages)
         entry = input("Do you want to buy more tickets?\n").lower()
         if entry == "yes": continue
         elif entry == "no": break

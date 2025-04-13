@@ -36,7 +36,7 @@ def days_in_month(year, month):
     if month > 12 or month < 1: return "Invalid month number"
 
     if is_leap(year) and month == 2:
-        return f"There are {month_days[month][1] + 1} days in {month_days[month][0]}, because it is a leap year!"
+        return "There are 29 days in February, because it is a leap year!"
     return f"There are {month_days[month][1]} days in {month_days[month][0]}."
 
 print(days_in_month(year=year, month=month))

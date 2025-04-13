@@ -6,7 +6,8 @@ people = int(input("How many people are paying? \n"))
 tip = float(input("How much are you tipping? 10%, 15%, 20% \n"))
 
 
-# Write your code below!
+# Write your code below
+
 
 # TODO Complete the tasks below!
 """

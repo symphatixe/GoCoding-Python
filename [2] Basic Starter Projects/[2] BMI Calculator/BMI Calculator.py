@@ -3,7 +3,7 @@ height = input("enter your height in m: \n")
 weight = input("enter your weight in kg: \n")
 
 
-# Write your code below!
+# Write your code below
 
 
 # TODO Complete the tasks below!

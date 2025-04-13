@@ -2,7 +2,14 @@
 year = int(input("Which year do you want to check? \n"))
 
 
-# Write your code below!
+# Write your code below
+
+
+#TODO Complete the tasks below!
+"""
+» Create three booleans to store whether the year is a leap year based on the division
+» 
+"""
 
 #TODO create three booleans to store the conditions of the year using modulo by 4, 100, 400
 #TODO create a set of conditionals, that states whether the year is a leap year or not using an f-string

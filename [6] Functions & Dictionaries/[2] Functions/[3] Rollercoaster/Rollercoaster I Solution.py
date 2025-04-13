@@ -22,13 +22,13 @@ def tickets(people):
             print(f"Adult tickets are $12. Ticket amount added to bill. Total is now ${total}\n")
 
 
-def photo(response):
+def photo(response, people):
     global total
     global photoChoice
 
     match response:
         case "y":
-            total += 3
+            total += 3 * people
             photoChoice = True
             print(f"You have added the photo package. Total is now ${total}")
         case "n":
@@ -38,9 +38,9 @@ def photo(response):
             exit()
 
 
-def bill(response):
+def bill():
     print(f"\nHello, your total is ${total} and includes photos."
-          if response
+          if photoChoice
           else f"\nHello, your total is ${total} and does not include photos.")
 
 
@@ -53,10 +53,10 @@ match user_response:
         tickets(people)
 
         photoInput = input("Would you like a photo? Please enter y or n. \n").lower()
-        photo(photoInput)
+        photo(photoInput, people)
 
-        bill(photoChoice)
+        bill()
     case "no":
-        print("")
+        print("Okay, exiting")
     case _:
-        print("You are too short, cannot ride the rollercoaster")
+        print("Unknown command")

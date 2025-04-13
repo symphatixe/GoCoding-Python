@@ -35,7 +35,7 @@ def is_leap(year):
 #TODO Complete the tasks below!
 """
 » Adjust the is_leap() function to return True or False
-» Create a function named days_in_month() that will return the number of days in a month
+» Create a function named days_in_month(year, month) that will return the number of days in a month
     › Catch any errors with invalid month numbers
     › Check if the year is a leap year using is_leap() and month is 2 (February)
     › If the year is a leap year, return 29 for February only

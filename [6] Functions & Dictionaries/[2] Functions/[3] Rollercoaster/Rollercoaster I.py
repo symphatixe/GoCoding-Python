@@ -1,7 +1,7 @@
 # Starter Code
 print("Welcome to the GoCoding Rollercoaster. \n")
 
-entry = input("Do you want to run the rollercoaster program?\n").lower()
+user_response = input("Do you want to run the rollercoaster program?\n").lower()
 total = 0
 photoChoice = False
 
