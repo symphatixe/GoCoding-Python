@@ -11,7 +11,7 @@ tip = float(input("How much are you tipping? 10%, 15%, 20% \n"))
 
 # TODO Complete the tasks below!
 """
-» Create a variable to store a number that can be used to multiply the total
-» Create a variable to store the rounded amount that a person must pay
-» Print out what each person should pay using an f-string
+» Create a variable to store a number that can be used to multiply the total.
+» Create a variable to store the rounded amount that a person must pay.
+» Print out what each person should pay using an f-string.
 """

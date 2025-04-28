@@ -8,8 +8,8 @@ weight = float(input("enter your weight in kg: \n"))
 
 #TODO Complete the tasks below!
 """
-» Copy the code from the BMI Calculator and use the given casted variables
-» Use conditionals to print out the corresponding text based on the BMI
+» Copy the code from the BMI Calculator and use the given casted variables to calculate the BMI.
+» Use conditionals to print out the corresponding text based on the BMI:
     › Underweight for BMI less than 18.5
     › Normal weight for BMI less than 25
     › Slightly overweight for BMI less than 30
