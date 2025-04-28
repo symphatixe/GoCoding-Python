@@ -11,10 +11,9 @@ password = ""
 
 def generate_password(nr_characters, difficulty):
     global password
-    password = []
+    characters = []
 
     for _ in range(nr_characters):
-        characters = []
 
         lists = [letters, numbers, symbols]
         selected_list = random.choice(lists)
@@ -24,7 +23,7 @@ def generate_password(nr_characters, difficulty):
 
     match difficulty:
         case "easy":
-            password = ''.join(characters)
+            password = ' '.join(characters)
             print(f"Easy Password: {password}")
         case "hard":
             random.shuffle(characters)

@@ -17,3 +17,14 @@ the country and its information.
 » Add an entry to the list travel_log and add a country, some cities, and the total visits
 """
 
+travel_log = {
+    "France": {
+        "Cities Visited": ["Paris", "Lille", "Dijon"],
+        "Total Visits": 5
+    },
+    "Germany": {
+        "Cities Visited": ["Berlin", "Hamburg", "Stuttgart"],
+        "Total Visits": 12
+    },
+}
+
