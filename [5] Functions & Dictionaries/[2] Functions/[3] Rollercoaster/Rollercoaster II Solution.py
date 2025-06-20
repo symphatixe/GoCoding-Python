@@ -3,7 +3,6 @@ print("Welcome to the GoCoding Rollercoaster. \n")
 
 user_response = input("Do you want to run the ticket program?\n").lower()
 total = 0
-photoChoice = False
 people = []
 
 # Write your code below!
@@ -39,7 +38,6 @@ def tickets():
 
 def photo(people_list):
     global total
-    global photoChoice
 
     for _ in people_list:
         response = input("Would you like a photo? Please enter y or n. \n").lower()
@@ -56,9 +54,7 @@ def photo(people_list):
 
 
 def bill():
-    print(f"\nHello, your total is ${total} and includes photos."
-          if photoChoice
-          else f"\nHello, your total is ${total} and does not include photos.")
+    print(f"\nHello, your total is ${total}.")
 
 
 match user_response:

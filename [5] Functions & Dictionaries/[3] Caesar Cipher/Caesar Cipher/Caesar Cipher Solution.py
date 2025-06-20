@@ -6,7 +6,7 @@ from art import logo
 # Write your code below
 print(logo)
 
-def caesar(text, shift, operation):
+def caesar(operation, text, shift):
     completed_text = ""
 
     if operation == "decode": shift *= -1

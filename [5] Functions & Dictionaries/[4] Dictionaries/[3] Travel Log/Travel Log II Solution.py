@@ -29,5 +29,5 @@ add_new_country("Russia", ["Moscow", "St. Petersburg"], 2)
 for i in range(len(travel_log)):
     element = travel_log[i]
     print(f"Country Visited: {element["Country"]}")
-    print(f"Cities Visited: {" ".join(element["Cities Visited"])}")
+    print(f"Cities Visited: {", ".join(element["Cities Visited"])}")
     print(f"Times Visited: {element["Total Visits"]}\n")

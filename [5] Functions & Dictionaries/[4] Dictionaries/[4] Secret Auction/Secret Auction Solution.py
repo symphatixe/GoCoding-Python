@@ -15,7 +15,7 @@ def find_highest_bidder(bids):
     winner = ""
 
     for bidder in bids:
-        bid_amount = auction_bids[bidder]
+        bid_amount = bids[bidder]
 
         if bid_amount > highest_bid:
             highest_bid = bid_amount

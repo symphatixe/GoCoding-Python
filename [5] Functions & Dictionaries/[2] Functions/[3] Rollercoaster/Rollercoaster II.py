@@ -3,7 +3,6 @@ print("Welcome to the GoCoding Rollercoaster. \n")
 
 user_response = input("Do you want to run the ticket program?\n").lower()
 total = 0
-photoChoice = False
 people = []
 
 # Write your code below!
