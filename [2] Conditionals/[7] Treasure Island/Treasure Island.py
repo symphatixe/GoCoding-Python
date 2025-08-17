@@ -27,8 +27,13 @@ print("Your mission is to find the treasure.")
 
 # Write your code below!
 
-#TODO Make sure to set the choices as lower() globally instead of doing for each use of the variable
-#TODO Create a conditional to check left or right
-#TODO If the user goes left, print something, otherwise right they lose
-#TODO Create another conditional to check going through a sewer or waiting
-#TODO Create a conditional to check the choice of 3 doors, and also waiting. One of the doors should be a winning condition.
+
+# TODO Complete the tasks below!
+"""
+» Ask the user with a input statement which direction they want to go to: left or right.
+» Based on the direction create conditionals to create a text-based adventure game.
+
+» Use lower() for all input() statements.
+» Make sure to account for answers that are not programmed using else.
+» The code provided is an example of what can be created with doors.
+"""

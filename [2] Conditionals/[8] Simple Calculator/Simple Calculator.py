@@ -11,7 +11,11 @@ operation = int(input("Choose from the menu options below:\n" +
 
 # Write your code below
 
-#TODO Create a match case based off the operation variable to determine what operation the user wants
-#TODO Inside the cases create the arithmetic operation and print it using an f-string
-#TODO Inside the case for division check for division by 0
-#TODO Lastly add a case for handling invalid choices that are not 1 - 4
+
+# TODO Complete the tasks below!
+"""
+» Using match case, create a structure to check for the user's selected operation.
+» Inside the cases, calculate the result and print it out using an f-string.
+» Make sure to check for division by 0 as an error.
+» Add a default case to check for invalid operation numbers.
+"""
