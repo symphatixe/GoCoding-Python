@@ -7,7 +7,11 @@ choice = input("Heads or tails? \n").lower()
 
 # Write your code below!
 
-#TODO Create a variable to check for the toss of a coin using randint and another one to store the string representation
-# of the toss instead of a number
-#TODO Create a ternary conditional to change the content of tossChoice depending on the toss
-#TODO Create a match case conditional with two parameters to check for the toss from the computer and the choice from the user
+
+# TODO Complete the tasks below!
+"""
+» Check for whether a valid choice was made and use exit() to stop the program
+» Create a variable to store the toss of a coin using random.randint().
+» Create a ternary variable to change tossChoice based on the random coin toss.
+» Using match case, check for the result of your guess, whether you are correct or not.
+"""

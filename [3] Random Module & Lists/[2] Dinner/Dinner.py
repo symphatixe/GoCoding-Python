@@ -6,5 +6,11 @@ name_string = input("Enter the names of everyone at the dinner, separated by a c
 
 # Write your code below!
 
-#TODO Use the split function to take a list of names separated by a comma
-#TODO Introduce the usage of using indexing and a complex usage of how to incorporate the use of randint and concatenation
+# TODO Complete the tasks below!
+"""
+» Use the split() function to separate the names into a list, based on a comma
+» Print a random name from the list by following these steps:
+    › Identify the first and last index using len()
+    › Use random.randint() to choose a random index/name
+    › Use [] to print out the element from the list 
+"""

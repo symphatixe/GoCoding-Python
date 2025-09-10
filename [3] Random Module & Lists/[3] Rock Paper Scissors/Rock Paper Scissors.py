@@ -31,6 +31,11 @@ scissors = '''
 
 #Write your code below!
 
+# TODO Complete the tasks below!
+"""
+» 
+"""
+
 #TODO Create a variable that stores the computer's choice and the user's choice taking an int
 #TODO Just like the coin toss program, create a variable to store the string representation of both choices (rock, paper, scissors)
 # Use match case for this
