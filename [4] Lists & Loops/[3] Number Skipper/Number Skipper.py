@@ -5,7 +5,10 @@ num = int(input("Pick a number to skip :)\n"))
 
 # Write your code below!
 
-#TODO Create a for loop that runs from 0 - 10
-#TODO Inside the for loop create a conditional that checks whether the number the user picked matches
-# the for loop and skip it using continue
-#TODO If the number from the for loop does not match, print the number
+
+# TODO Complete the tasks below!
+"""
+» Create a for loop that runs from 1 - 10 using in range()
+» If the number is the same as your input, use continue to skip it
+» Print the number if the condition does not run
+"""

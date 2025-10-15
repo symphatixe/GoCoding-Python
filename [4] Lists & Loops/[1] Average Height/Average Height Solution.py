@@ -4,8 +4,8 @@ student_heights = [180, 124, 165, 173, 189, 169, 146]
 
 # Write your code below!
 
-#NOTE: You should not use the sum() or len() functions in your answer.
 
+#NOTE: You should not use the sum() or len() functions in your answer.
 total = 0
 count = 0
 for height in student_heights:

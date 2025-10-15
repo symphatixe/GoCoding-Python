@@ -15,21 +15,19 @@ password = ""
 
 # Write your code below!
 
-#TODO Create a match case to detect whether the user chooses the easy or hard password and
-# check for invalid inputs
 
-#Easy Level - Order not randomized:
-#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-
-#TODO Using the _ instead of an iterator variable in for loops choose a random
-# element from the list using choice() with the lists as a parameter
-#TODO Add each element to the password variable
-#TODO Print the password using an f-string or just by using a print() statement
-
-
-#Hard Level - Order of characters randomized:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-
-#TODO Create an empty list named "characters" to store the characters of the password
-#TODO Repeat the same process with choosing a random element from the lists and add it to the list
-#TODO Use the shuffle() function to shuffle the characters in the list and then print out the password
+# TODO Complete the tasks below!
+"""
+» Create a match case to check if the user wants an easy or hard password, check for invalid inputs
+» Create a for loop that randomly chooses elements from the lists
+» Add each chosen element to the password variable
+» Use the _ instead of an iterator variable to choose a random element from the lists using random.choice()
+» Easy Level Password
+    › Not randomized order of characters
+    › Example: 4 letters, 2 symbols, 2 numbers = JduE&!91
+    › Print the password using an f-string
+» Hard Level Password
+    › Randomized order of characters
+    › Example: 4 letters, 2 symbol, 2 number = g^2jk8&P
+    › Print the password using an f-string
+"""

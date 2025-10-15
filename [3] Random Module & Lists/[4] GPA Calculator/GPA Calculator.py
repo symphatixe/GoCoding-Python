@@ -4,11 +4,15 @@ grades = [90, 60, 90, 40, 50, 100, 70, 40]
 
 # Write your code below!
 
-#TODO Introduce the user to the program and print out the current list of grades using an f-string.
-#TODO Calculate the total and the average using the individual indexes of the list, and round the average using the round() function
-# lastly printing it as an f-string.
-#TODO You took a test and got another 100 on it, 2nd test grade got dropped, last grade did not count since it was a practice exam,
-# insert a new 3rd test grade by using insert() and append() according to the text above
-#TODO Use remove() and pop() and understand the difference between them in removing using the different functions
-#TODO Use the pop() function by itself and along with a parameter and see the difference in how it works
-#TODO Lastly, recalculate the average using indexes and round the average, printing out the final grades and average using an f-string
+
+# TODO Complete the tasks below!
+"""
+» Print out the list of grades using an f-string and introduce the user to the program
+» Calculate the average of all grades in the list using indexing, round to 2 decimal places
+    › Note: as we are working with ints, cast as a float because there will be no decimals
+» You take a test and receive 100 on it, use append() to add it to the list
+» You missed the 2nd test and received a 85, use insert() to add it
+» Use remove() to take away the duplicate grade of a 40, and also pop() to remove the other 40 as well
+» Pick a grade to remove using pop() with an index
+» Recalculate the average and print out the final grade using an f-string
+"""
