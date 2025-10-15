@@ -5,6 +5,8 @@ name2 = input("What is their name? \n")
 
 
 # Write your code below!
+
+
 combined_name = name1.lower() + name2.lower()
 
 friend_count = 0

@@ -2,9 +2,15 @@
 import random
 num = int(input("How many numbers do you want inside the list?\n"))
 
+list_a = []
+total = 0
 
 # Write your code below!
 
-#TODO Create an empty list to store the numbers that are going to be generated
-#TODO Create a for loop that will append random numbers to the list from 1 - 9
-#TODO Print the list, use a for loop to add all of the numbers generated.
+
+# TODO Complete the tasks below!
+"""
+» Create a for loop that will append random numbers from 1 - 9 to list_a
+» Using a for loop add up all the numbers in the list
+» Print the list using an f-string
+"""

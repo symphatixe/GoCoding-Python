@@ -3,6 +3,8 @@ grades = [90, 60, 90, 40, 50, 100, 70, 40]
 
 
 # Write your code below!
+
+
 print("Welcome to the GPA Calculator, let's see if adjusting the grades will help your GPA.")
 print(f"Current Grades: {grades}")
 

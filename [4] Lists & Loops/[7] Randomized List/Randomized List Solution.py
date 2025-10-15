@@ -2,16 +2,15 @@
 import random
 num = int(input("How many numbers do you want inside the list?\n"))
 
-
-# Write your code below!
-list1 = []
+list_a = []
 total = 0
 
+# Write your code below!
 for _ in range(num):
     list.append(random.randint(0, 9))
 
-for num in list1:
+for num in list_a:
     total += num
 
 
-print(f"Randomized list {list1}, total of all evens {total}")
+print(f"Randomized list {list_a}, total of numbers: {total}")

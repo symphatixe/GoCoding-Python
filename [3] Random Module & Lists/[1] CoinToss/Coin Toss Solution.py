@@ -6,6 +6,8 @@ choice = input("Heads or tails? \n").lower()
 
 
 # Write your code below!
+
+
 if (choice != "heads" and choice != "tails"):
     print("Not an applicable input.")
     exit()

@@ -8,6 +8,8 @@ position = input("Where do you want to put the treasure? \n")
 
 
 # Write your code below!
+
+
 column = int(position[0]) - 1
 row = int(position[1]) - 1
 

@@ -1,44 +1,41 @@
 # Starter Code
 import random
 
-rock = '''
+rock = """
     _______
----'   ____)
+---"   ____)
       (_____)
       (_____)
       (____)
 ---.__(___)
-'''
+"""
 
-paper = '''
+paper = """
     _______
----'   ____)____
+---"   ____)____
           ______)
           _______)
          _______)
 ---.__________)
-'''
+"""
 
-scissors = '''
+scissors = """
     _______
----'   ____)____
+---"   ____)____
           ______)
        __________)
       (____)
 ---.__(___)
-'''
+"""
 
 
 #Write your code below!
 
 # TODO Complete the tasks below!
 """
-» 
+» Create a variable that generates a random number for the computer's choice
+» Create a variable to store the user's choice as an integer
+» Similar to coin toss, create a string to store the integer as a choice (rock, paper, scissors)
+» Create a match case to convert the integer into a string for computers and users
+» Using match case check for outcomes and use guard conditions to print out the outcome using ternary operators
 """
-
-#TODO Create a variable that stores the computer's choice and the user's choice taking an int
-#TODO Just like the coin toss program, create a variable to store the string representation of both choices (rock, paper, scissors)
-# Use match case for this
-#TODO Create a match case conditional for the outcomes of the choices, include complex ternary operators for printing different text
-# based on the choices
-#TODO Inside the cases for the match use guard conditions to specify what input is going to be printed out and use wildcards

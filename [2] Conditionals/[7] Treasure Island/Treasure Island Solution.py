@@ -26,6 +26,8 @@ print("Your mission is to find the treasure.")
 
 
 # Write your code below!
+
+
 choice1 = input("Pick a direction to go, left or right. \n").lower()
 
 if (choice1 == "left"):
@@ -44,8 +46,11 @@ if (choice1 == "left"):
         else:
             print("You chose to walk back or wait, a huge rock falls from the top and crushes you, game over!")
 
-    else: print("You did not wait or swim through the water, the sewer got flooded with water!!!")
+    else:
+        print("You did not wait or swim through the water, the sewer got flooded with water!!!")
 
 
-elif (choice1 == "right"): print("You fell into a hole, game over!")
-else: print("You waited too long and a spike trap appeared under you!")
+elif (choice1 == "right"):
+    print("You fell into a hole, game over!")
+else:
+    print("You waited too long and a spike trap appeared under you!")

@@ -1,35 +1,37 @@
 # Starter Code
 import random
 
-rock = '''
+rock = """
     _______
----'   ____)
+---"   ____)
       (_____)
       (_____)
       (____)
 ---.__(___)
-'''
+"""
 
-paper = '''
+paper = """
     _______
----'   ____)____
+---"   ____)____
           ______)
           _______)
          _______)
 ---.__________)
-'''
+"""
 
-scissors = '''
+scissors = """
     _______
----'   ____)____
+---"   ____)____
           ______)
        __________)
       (____)
 ---.__(___)
-'''
+"""
 
 
 #Write your code below!
+
+
 computer = random.randint(1, 3)
 user = int(input("Hello, welcome to rock, paper, scissors, the classic game. Pick a number 1 - 3 and challenge the computer. \n"))
 
