@@ -3,6 +3,8 @@ print("Welcome to the FizzBuzz looper!")
 
 
 # Write your code below!
+
+
 for number in range(101):
     match number:
         case _ if number % 3 == 0 and number % 5 == 0:

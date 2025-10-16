@@ -29,5 +29,7 @@ password = ""
 » Hard Level Password
     › Randomized order of characters
     › Example: 4 letters, 2 symbol, 2 number = g^2jk8&P
+    › Create en empty list to store the characters generated
+    › Use shuffle() to shuffle the characters and add them into the password
     › Print the password using an f-string
 """
